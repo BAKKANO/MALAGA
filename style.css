@@ -5827,7 +5827,7 @@ opacity: 0;
     display: inline-block;
     color: RED;
     position: absolute;
-    top: 111.2% !important;
+    top: 111.9% !important;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -5840,7 +5840,7 @@ opacity: 0;
   border-radius: 10%;
   position: absolute;
   width: 100%;
-  bottom: -13.3% !important;
+  bottom: -13.9% !important;
   height: 600px;
   z-index: 0;
 }
