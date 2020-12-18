@@ -1,4 +1,4 @@
-body{margin:0px;padding:0px;border:0px;height:80px}
+body{margin:0px;padding:0px;border:0px;height:80px;background-color:red;}
   @media only screen and (min-width:320px) {
     #ar{position: absolute;width: 25%;top:39%;right:10%;display: none;transform: rotate(120deg);opacity: 0}
     #ab{position: absolute;width: 25%;top:15%;right:10%;display: none;transform: rotate(120deg);opacity: 0}
@@ -3240,6 +3240,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 }
 
   @media only screen and (min-width:360px) {
+
     #w1 {
     opacity: 0;
     transition: 1s;
@@ -5246,22 +5247,91 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 }
 
 @media only screen and (min-width:375px) {
+  #bakkano1fake {
+    transform: rotate(0.5deg);
+    z-index: 2;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    bottom: 300.5px;
+    left: 105px;
+    margin: 0px;
+    transition: 10s;
+}
+
+
+  #sign3neon {
+    z-index: 2;
+    transition: 1s;
+    position: absolute;
+    width: 192px;
+    bottom: 280px;
+    left: 83px;
+    margin: 0px;
+    transition: height 1s, width 1s ,transform 2s;
+}
+  #sign3fake {
+    z-index: 2;
+    transition: 1s;
+    position: absolute;
+    width: 192px;
+    bottom: 280px;
+    left: 83px;
+    margin: 0px;
+    transition: height 1s, width 1s ,transform 2s;
+}
+
+  #mapringb1 {
+  position: absolute;
+  width: 45px;
+  top: 60px;
+  z-index: 3;
+  left: 158px!important;
+  z-index: 3;
+  transition: 0.5s;
+}
+  #mapsb1 {
+  position: absolute;
+  width: 25px;
+  top: 30px;
+  z-index: 3;
+  left: 168px!important;
+  z-index: 3;
+  transition: 0.5s;
+}
+  #instab1 {
+  position: absolute;
+  width: 45px;
+  top: 23px;
+  z-index: 3;
+  margin: 0,0,0,0;
+  left: 265px!important;
+  z-index: 3;
+  transition: 0.5s;
+}
+  h1 {
+    left: 25%;
+    background-color: none;
+    transition: 0.5s;
+    z-index: 1;
+    color: white;}
+
   .fire4es {
     position: absolute;
     width: 90px;
     right: 33%;
-    top: 415px;
+    top: 385px;
     opacity: 50%;
 }
   .fire5es {
     position: absolute;
     width: 90px;
     right: 30%;
-    top: 415px;
+    top: 385px;
     opacity: 50%;
 }
-  #x12 {
-    top: 110%!important;
+#x12 {
+    top: 110.4%!important;
 }
   .bakkanowhite {
     position: absolute;
@@ -5351,7 +5421,7 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
     top: 396px!important;
     opacity: 50%;
 }
-  fire5 {
+  .fire5 {
     position: absolute;
     opacity: 100%;
     width: 90px;
@@ -5431,9 +5501,9 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
       animation-duration: 3s;
       animation-delay:3s;
     }
-  #bakkanoname1firefake{z-index: 3;position:absolute;transition: 1s;left: 28.5%;display:none;width:42%;top:46%;}
-#bakkanoname1fake{z-index: 3;position:absolute;transition: 1s;left: 28.5%;display: none;width:42%;top:46%;}
-#bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 28.5%;display: none;width:42%;top:46%;}
+  #bakkanoname1firefake{z-index: 3;position:absolute;transition: 1s;left: 30.5%;display:none;width:42%;top:46%;}
+#bakkanoname1fake{z-index: 3;position:absolute;transition: 1s;left: 30.5%;display: none;width:42%;top:46%;}
+#bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 30.5%;display: none;width:42%;top:46%;}
 
   #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
@@ -5465,16 +5535,16 @@ opacity: 0;
   }
 }
 
-  #submit {
-    transition: 0.4s;
-    z-index: 4;
-    text-align: center;
-    text-align-last: center;
-    word-spacing: 5px;
-    font-weight: bold;
-    text-align: center;
-    top: 88%;
-    left: 26%;
+#submit {
+  transition: 0.4s;
+  z-index: 4;
+  text-align: center;
+  text-align-last: center;
+  word-spacing: 5px;
+  font-weight: bold;
+  text-align: center;
+  top: 88%;
+  left: 23%;
 }
   #time {
     text-align: center;
@@ -5728,7 +5798,7 @@ opacity: 0;
     position: absolute;
     right: 70px;
     z-index: 3;
-    top: 507px !important;
+    top: 500px !important;
 }
   .allergens {
     position: absolute;
@@ -5737,18 +5807,18 @@ opacity: 0;
     top: 27px !important;
 }
 #x12es {
-  font-weight: bolder;
-  font-size: 45PX;
-  display: inline-block;
-  color: RED;
-  position: absolute;
-  top: 110.2% !important;
-  padding: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  z-index: 2;
+    font-weight: bolder;
+    font-size: 45PX;
+    display: inline-block;
+    color: RED;
+    position: absolute;
+    top: 111.2% !important;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 2;
 }
 
 .bakkanowhite2es {
@@ -5998,7 +6068,7 @@ opacity: 0;
     opacity: 100%;
     width: 90px;
     right: 33%;
-    top: 415px;
+    top: 385px;
     opacity: 50%;
 }
 .fire2es {
@@ -6006,7 +6076,7 @@ opacity: 0;
     opacity: 100%;
     width: 90px;
     right: 33%;
-    top: 415px;
+    top: 385px;
     opacity: 50%;
     }
 .fire1es {
@@ -6014,32 +6084,33 @@ opacity: 0;
     opacity: 100%;
     width: 90px;
     right: 33%;
-    top: 415px;
+    top: 385px;
     opacity: 50%;
    }
-   .allergens13es {
-    position: absolute;
-    right: 70px;
-    z-index: 3;
-    top: 85px;
-}
+
 .allergens14es {
     position: absolute;
     right: 70px;
     z-index: 3;
-    top: 159px;
+    top: 145px;
+}
+.allergens13es {
+    position: absolute;
+    right: 70px;
+    z-index: 3;
+    top: 78px;
 }
 .allergens15es {
     position: absolute;
     right: 70px;
     z-index: 3;
-    top: 237px;
+    top: 219px;
 }
 .allergens16es {
     position: absolute;
     right: 70px;
     z-index: 3;
-    top: 317px;
+    top: 306px;
 }
 .tagrightes {
     font-size: 14PX;
@@ -6071,7 +6142,7 @@ opacity: 0;
     position: absolute;
     right: 70px;
     z-index: 3;
-    top: 395px;
+    top: 383px;
 }
   .span7 {
     color: black;
