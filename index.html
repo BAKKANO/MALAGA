@@ -1789,13 +1789,18 @@ setInterval(placename,1000)
 
     }
     document.getElementById('wi').onclick = function functionName() {
-setTimeout(getLocation,10)
-setTimeout(showPosition,20)
+      var langcheck=document.querySelector('#es')
+     var style=getComputedStyle(es)
+       lc=style.display
+      if(lc=="none"){
+
+// setTimeout(getLocation,10)
+// setTimeout(showPosition,20)
 
 
 // if (xz>"36.719165"&&xz<"36.719270") {
 
-console.log(xz)
+// console.log(xz)
       document.getElementById('bakkano1').style.height= "0%";
       document.getElementById('bakkano2').style.height= "0%";
       document.getElementById('wifi').style.display= "none";
@@ -1828,7 +1833,45 @@ console.log(xz)
 
 
       setIntervalId =setInterval(check,100);
+}
+else {
+  document.getElementById('gametit').innerHTML= "COMPLETA EL PUZZLE PARA RECIBIR LA CLAVE DEL WIFI";
+  document.getElementById('bakkano2es').style.height= "0%";
 
+  document.getElementById('bakkano1').style.height= "0%";
+  document.getElementById('bakkano2').style.height= "0%";
+  document.getElementById('wifi').style.display= "none";
+  document.getElementById('sign4').style.display= "none";
+  document.getElementById('sign3').style.display= "none";
+  document.getElementById('tit1').style.display= "none";
+  document.getElementById('tit2').style.display= "none";
+   document.getElementById('backgroundC').style.height= "0%";
+  document.getElementById('background1C').style.height= "0%";
+   document.getElementById('background2C').style.height= "0%";
+   document.getElementById('ar').style.display= "none";
+   document.getElementById('ab').style.display= "none";
+   document.getElementById('ab').style.display= "none";
+   document.getElementById('bakkanoname').style.top= "90%";
+   document.getElementById('bakkanoname1').style.top= "90%";
+   document.getElementById('bakkanoname1fire').style.top= "90%";
+
+
+
+  document.getElementById('buzzle').style.display= "inline-block";
+  document.getElementById('wheeldiv').style.display= "inline-block";
+  setTimeout(closegame,21000)
+  setTimeout(mainmenu,26000)
+
+  setTimeout(showstars,5000);
+
+
+
+
+
+
+  setIntervalId =setInterval(check,100);
+}
+}
 
 
 
@@ -1846,7 +1889,7 @@ console.log(xz)
 
 
 // }
-    }
+
 function background2C(){
   document.getElementById('background2C').style.opacity="1";
 }
@@ -4043,7 +4086,11 @@ document.getElementById('sign14fakees').onclick = function functionName() {
 
 
 document.getElementById('homepage').onclick=function functionName(){
+  var langcheck=document.querySelector('#es')
+ var style=getComputedStyle(es)
+   lc=style.display
 
+  if(lc=="none"){
 if(mx4.matches){
   document.getElementById('bakkanoname1fire').style.top= "46%";
   document.getElementById('bakkanoname1').style.top= "46%";
@@ -4058,7 +4105,6 @@ document.getElementById('bakkano1').style.height= "19%";
 document.getElementById('bakkano2').style.height= "20.2%";
  document.getElementById('sign3').style.display= "inline-block";
  document.getElementById('sign4').style.display= "inline-block";
- document.getElementById('tit2').style.display= "inline-block";
  document.getElementById('tit1').style.display= "inline-block";
   document.getElementById('backgroundC').style.height= "100%";
   document.getElementById('background1C').style.height= "100%";
@@ -4086,7 +4132,6 @@ document.getElementById('bakkano2').style.height= "20.2%";
   document.getElementById('bakkano2').style.height= "20.2%";
   document.getElementById('sign3').style.display= "inline-block";
   document.getElementById('sign4').style.display= "inline-block";
-  document.getElementById('tit2').style.display= "inline-block";
   document.getElementById('tit1').style.display= "inline-block";
   document.getElementById('backgroundC').style.height= "100%";
   document.getElementById('background1C').style.height= "100%";
@@ -4113,7 +4158,6 @@ else if (mx2.matches){
   document.getElementById('bakkano2').style.height= "20.2%";
   document.getElementById('sign3').style.display= "inline-block";
   document.getElementById('sign4').style.display= "inline-block";
-  document.getElementById('tit2').style.display= "inline-block";
   document.getElementById('tit1').style.display= "inline-block";
   document.getElementById('backgroundC').style.height= "100%";
   document.getElementById('background1C').style.height= "100%";
@@ -4142,7 +4186,6 @@ else if (mx2.matches){
   document.getElementById('bakkano2').style.height= "20.2%";
   document.getElementById('sign3').style.display= "inline-block";
   document.getElementById('sign4').style.display= "inline-block";
-  document.getElementById('tit2').style.display= "inline-block";
   document.getElementById('tit1').style.display= "inline-block";
   document.getElementById('backgroundC').style.height= "100%";
   document.getElementById('background1C').style.height= "100%";
@@ -4169,7 +4212,6 @@ else if(mx.matches){
   document.getElementById('bakkano2').style.height= "20.2%";
   document.getElementById('sign3').style.display= "inline-block";
   document.getElementById('sign4').style.display= "inline-block";
-  document.getElementById('tit2').style.display= "inline-block";
   document.getElementById('tit1').style.display= "inline-block";
   document.getElementById('backgroundC').style.height= "100%";
   document.getElementById('background1C').style.height= "100%";
@@ -4184,6 +4226,146 @@ else if(mx.matches){
 }
 else {
 
+}
+}
+
+else {
+
+
+  if(mx4.matches){
+    document.getElementById('bakkanoname1fire').style.top= "46%";
+    document.getElementById('bakkanoname1').style.top= "46%";
+    document.getElementById('bakkanoname').style.top= "46%";
+    document.getElementById('bakkanoname1fire').style.width= "36.5%";
+    document.getElementById('bakkanoname1').style.width= "36.5%";
+    document.getElementById('bakkanoname').style.width= "36.5%";
+    document.getElementById('bakkanoname1fire').style.left= "33%";
+    document.getElementById('bakkanoname1').style.left= "33%";
+    document.getElementById('bakkanoname').style.left= "33%";
+  document.getElementById('bakkano1').style.height= "19%";
+  document.getElementById('bakkano2es').style.height= "20.2%";
+   document.getElementById('sign3').style.display= "inline-block";
+   document.getElementById('sign4').style.display= "inline-block";
+   document.getElementById('tit2').style.display= "inline-block";
+    document.getElementById('backgroundC').style.height= "100%";
+    document.getElementById('background1C').style.height= "100%";
+    document.getElementById('background2C').style.height= "100%";
+   document.getElementById('stars').style.display= "none";
+   document.getElementById('wifi').style.display= "inline-block";
+   document.getElementById('wheeldiv').style.display= "none";
+   document.getElementById('buzzle').style.display= "none";
+   document.getElementById('gametit').style.display= "none";
+
+  }
+   else if(mx3.matches){
+    document.getElementById('bakkanoname1fire').style.top= "46%";
+    document.getElementById('bakkanoname1').style.top= "46%";
+    document.getElementById('bakkanoname').style.top= "46%";
+    document.getElementById('bakkanoname1fire').style.width= "42%";
+    document.getElementById('bakkanoname1').style.width= "42%";
+    document.getElementById('bakkanoname').style.width= "42%";
+    document.getElementById('bakkanoname1fire').style.left= "30%";
+    document.getElementById('bakkanoname1').style.left= "30%";
+    document.getElementById('bakkanoname').style.left= "30%";
+
+
+    document.getElementById('bakkano1').style.height= "19%";
+    document.getElementById('bakkano2es').style.height= "20.2%";
+    document.getElementById('sign3').style.display= "inline-block";
+    document.getElementById('sign4').style.display= "inline-block";
+    document.getElementById('tit2').style.display= "inline-block";
+    document.getElementById('backgroundC').style.height= "100%";
+    document.getElementById('background1C').style.height= "100%";
+    document.getElementById('background2C').style.height= "100%";
+    document.getElementById('stars').style.display= "none";
+    document.getElementById('wifi').style.display= "inline-block";
+    document.getElementById('wheeldiv').style.display= "none";
+    document.getElementById('buzzle').style.display= "none";
+    document.getElementById('gametit').style.display= "none";
+  }
+  else if (mx2.matches){
+    document.getElementById('bakkanoname1fire').style.top= "46%";
+    document.getElementById('bakkanoname1').style.top= "46%";
+    document.getElementById('bakkanoname').style.top= "46%";
+    document.getElementById('bakkanoname1fire').style.width= "38%";
+    document.getElementById('bakkanoname1').style.width= "38%";
+    document.getElementById('bakkanoname').style.width= "38%";
+    document.getElementById('bakkanoname1fire').style.left= "32.3%";
+    document.getElementById('bakkanoname1').style.left= "32.3%";
+    document.getElementById('bakkanoname').style.left= "32.3%";
+
+
+    document.getElementById('bakkano1').style.height= "19%";
+    document.getElementById('bakkano2es').style.height= "20.2%";
+    document.getElementById('sign3').style.display= "inline-block";
+    document.getElementById('sign4').style.display= "inline-block";
+    document.getElementById('tit2').style.display= "inline-block";
+    document.getElementById('backgroundC').style.height= "100%";
+    document.getElementById('background1C').style.height= "100%";
+    document.getElementById('background2C').style.height= "100%";
+    document.getElementById('stars').style.display= "none";
+    document.getElementById('wifi').style.display= "inline-block";
+    document.getElementById('wheeldiv').style.display= "none";
+    document.getElementById('buzzle').style.display= "none";
+    document.getElementById('gametit').style.display= "none";
+
+  }
+   else if (mx1.matches){
+    document.getElementById('bakkanoname1fire').style.top= "46%";
+    document.getElementById('bakkanoname1').style.top= "46%";
+    document.getElementById('bakkanoname').style.top= "46%";
+    document.getElementById('bakkanoname1fire').style.width= "42%";
+    document.getElementById('bakkanoname1').style.width= "42%";
+    document.getElementById('bakkanoname').style.width= "42%";
+    document.getElementById('bakkanoname1fire').style.left= "31%";
+    document.getElementById('bakkanoname1').style.left= "31%";
+    document.getElementById('bakkanoname').style.left= "31%";
+
+
+
+    document.getElementById('bakkano1').style.height= "19%";
+    document.getElementById('bakkano2es').style.height= "20.2%";
+    document.getElementById('sign3').style.display= "inline-block";
+    document.getElementById('sign4').style.display= "inline-block";
+    document.getElementById('tit2').style.display= "inline-block";
+    document.getElementById('backgroundC').style.height= "100%";
+    document.getElementById('background1C').style.height= "100%";
+    document.getElementById('background2C').style.height= "100%";
+    document.getElementById('stars').style.display= "none";
+    document.getElementById('wifi').style.display= "inline-block";
+    document.getElementById('wheeldiv').style.display= "none";
+    document.getElementById('buzzle').style.display= "none";
+    document.getElementById('gametit').style.display= "none";
+
+  }
+  else if(mx.matches){
+    document.getElementById('bakkanoname1fire').style.top= "46%";
+    document.getElementById('bakkanoname1').style.top= "46%";
+    document.getElementById('bakkanoname').style.top= "46%";
+    document.getElementById('bakkanoname1fire').style.width= "45%";
+    document.getElementById('bakkanoname1').style.width= "45%";
+    document.getElementById('bakkanoname').style.width= "45%";
+    document.getElementById('bakkanoname1fire').style.left= "29%";
+    document.getElementById('bakkanoname1').style.left= "29%";
+    document.getElementById('bakkanoname').style.left= "29%";
+
+    document.getElementById('bakkano1').style.height= "19%";
+    document.getElementById('bakkano2es').style.height= "20.2%";
+    document.getElementById('sign3').style.display= "inline-block";
+    document.getElementById('sign4').style.display= "inline-block";
+    document.getElementById('tit2').style.display= "inline-block";
+    document.getElementById('backgroundC').style.height= "100%";
+    document.getElementById('background1C').style.height= "100%";
+    document.getElementById('background2C').style.height= "100%";
+    document.getElementById('stars').style.display= "none";
+    document.getElementById('wifi').style.display= "inline-block";
+    document.getElementById('wheeldiv').style.display= "none";
+    document.getElementById('buzzle').style.display= "none";
+    document.getElementById('gametit').style.display= "none";
+
+
+
+}
 }
 }
 let fade ;
