@@ -1367,6 +1367,7 @@ z-index: 0;
 
     border-color: red;
     border-top-style: groove;
+    padding-bottom: 150px;
     top: 25%;
     transition: 1s;
     animation-name: bebidabtn,bebidabtn2;
@@ -1390,7 +1391,8 @@ z-index: 0;
     width: 42%;
     border-style: none;
     border-width: 0px;
-
+padding-top :150px;
+margin-top: -150px;
     border-color: red;
     border-bottom-style: groove;
     top: 78%;
@@ -5247,6 +5249,19 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 }
 
 @media only screen and (min-width:375px) {
+  #b1foodmenu-esfake {
+    position: absolute;
+    width: 200px;
+    left: 81px;
+    top: 400px;
+    z-index: 1;
+}
+  #b1drinksmenu-esfake {
+    position: absolute;
+    width: 200px;
+    left: 81px;
+    top: 230px;
+}
   #bakkano1fake {
     transform: rotate(0.5deg);
     z-index: 2;
@@ -5309,13 +5324,13 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
   z-index: 3;
   transition: 0.5s;
 }
-  h1 {
-    left: 25%;
+h1 {
+    left: 29%;
     background-color: none;
     transition: 0.5s;
     z-index: 1;
-    color: white;}
-
+    color: white;
+}
   .fire4es {
     position: absolute;
     width: 90px;
@@ -7660,6 +7675,22 @@ h1 {
 }
 
 @media only screen and (min-width:414px) {
+  #mapsb1 {
+
+    left: 181px!important;
+
+}
+  #mapringb1 {
+
+    left: 167px!important;
+
+}
+
+  #instab1 {
+
+    left: 297px!important;
+
+}
   .nachos {
     position: absolute;
     opacity: 100%;

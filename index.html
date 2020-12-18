@@ -1191,7 +1191,7 @@ else {
         document.getElementById('submit').style.backgroundColor="red";
         document.getElementById('submit').style.paddingLeft="30px";
         document.getElementById('submit').style.paddingright="30px";
-        document.getElementById('submit').style.left="23%";
+        document.getElementById('submit').style.left="19%";
         document.getElementById('bakkano3d1').style.borderStyle="solid";
         document.getElementById('bakkano3d2').style.borderStyle="solid";
 
@@ -1557,10 +1557,21 @@ else {
 
 
     document.getElementById('reserve').onclick = function functionName() {
+
+      var langcheck=document.querySelector('#es')
+     var style=getComputedStyle(es)
+       lc=style.display
+       // console.log(lc);
+
+      // var langcheck=document.getElementById('es').style.display
+      if(lc=="none"){
+
       document.getElementById('reservation').style.display= "inline-block";
       document.getElementById('reserve').style.display= "none";
       document.getElementById('bakkano1').style.display= "none";
       document.getElementById('bakkano2').style.display= "none";
+      document.getElementById('bakkano2es').style.display= "none";
+
       document.getElementById('wifi').style.display= "none";
       document.getElementById('sign4').style.display= "none";
       document.getElementById('sign3').style.display= "none";
@@ -1588,7 +1599,47 @@ setInterval(placename,1000)
 
 
     }
+    else{
+      document.getElementById('reservation').style.display= "inline-block";
+      document.getElementById('reserve').style.display= "none";
+      document.getElementById('bakkano1').style.display= "none";
+      document.getElementById('bakkano2').style.display= "none";
+      document.getElementById('bakkano2es').style.display= "none";
 
+      document.getElementById('wifi').style.display= "none";
+      document.getElementById('sign4').style.display= "none";
+      document.getElementById('sign3').style.display= "none";
+      document.getElementById('tit1').style.display= "none";
+      document.getElementById('tit2').style.display= "none";
+       document.getElementById('backgroundC').style.height= "0%";
+       document.getElementById('background1C').style.height= "0%";
+       document.getElementById('background2C').style.height= "0%";
+       document.getElementById('ar').style.display= "none";
+      document.getElementById('ab').style.display= "none";
+     document.getElementById('bakkanoname').style.display= "none";
+     document.getElementById('bakkanoname1').style.display= "none";
+     document.getElementById('bakkanoname1fire').style.display= "none";
+     document.getElementById('name').placeholder= "NOMBRE Y APELLIDO";
+     document.getElementById('quantity').placeholder= "CANTIDAD";
+     document.getElementById('submit').innerHTML= "MANDAR";
+
+
+
+
+
+    setInterval(telcheck,10)
+    setInterval(namecheck,10)
+    setInterval(quantitycheck,10)
+    setInterval(timecheck,10)
+    setInterval(datecheck,10)
+    setInterval(threemen,10)
+    setInterval(placename,1000)
+    // setInterval(fourmen,1000)
+
+
+
+    }
+}
     // let setIntervalId;
 
  // let sign = document.getElementById('sign');
@@ -2083,7 +2134,7 @@ document.getElementById('bakkanoname').style.left= "30%";
     document.getElementById('es').style.width= "0px";
     document.getElementById('tit2').style.display= "inline-block";
     // document.getElementById('tit1').innerHTML= "¡ BIENVENIDOS !";
-    document.getElementById('tit2').style.left= "18.6%";
+    document.getElementById('tit2').style.left= "17.6%";
 
 
     // document.getElementById('tit2es').style.display= "inline-block";
@@ -3539,7 +3590,7 @@ document.getElementById('mapsb1').onclick = function functionName(){
       document.getElementById('bakkano1').style.display="none";
       document.getElementById('sign3').style.display="none";
       document.getElementById('tit1').style.display="none";
-      document.getElementById('tit2es').style.display="none";
+      document.getElementById('tit2').style.display="none";
       // document.getElementById('background').style.display="none";
       // document.getElementById('background1').style.display="none";
       // document.getElementById('background2').style.display="none";
