@@ -1140,6 +1140,15 @@ else {
       document.getElementById('b1drinksmenu').style.transform +="rotate(90deg)";
     }
     function checkinfo(){
+      var langcheck=document.querySelector('#es')
+     var style=getComputedStyle(es)
+       lc=style.display
+       // console.log(lc);
+
+      // var langcheck=document.getElementById('es').style.display
+      if(lc=="none"){
+
+
      if(mx.matches){
         document.getElementById('submit').innerHTML="complete the info";
         document.getElementById('submit').style.fontSize="15px";
@@ -1207,6 +1216,79 @@ else {
         document.getElementById('bakkano3d2').style.borderStyle="solid";
       }
     }
+    else{
+
+
+      if(mx.matches){
+         document.getElementById('submit').innerHTML="completa los datos";
+         document.getElementById('submit').style.fontSize="15px";
+         document.getElementById('submit').style.backgroundColor="red";
+         document.getElementById('submit').style.paddingLeft="30px";
+         document.getElementById('submit').style.paddingright="30px";
+         document.getElementById('submit').style.left="11%";
+         document.getElementById('bakkano3d1').style.borderStyle="solid";
+         document.getElementById('bakkano3d2').style.borderStyle="solid";
+
+
+       }
+        if(mx1.matches){
+         document.getElementById('submit').innerHTML="completa los datos";
+         document.getElementById('submit').style.fontSize="15px";
+         document.getElementById('submit').style.backgroundColor="red";
+         document.getElementById('submit').style.paddingLeft="30px";
+         document.getElementById('submit').style.paddingright="30px";
+         document.getElementById('submit').style.left="20%";
+         document.getElementById('bakkano3d1').style.borderStyle="solid";
+         document.getElementById('bakkano3d2').style.borderStyle="solid";
+
+       }
+       if(mx2.matches){
+        document.getElementById('submit').innerHTML="completa los datos";
+        document.getElementById('submit').style.fontSize="15px";
+        document.getElementById('submit').style.backgroundColor="red";
+        document.getElementById('submit').style.paddingLeft="30px";
+        document.getElementById('submit').style.paddingright="30px";
+        document.getElementById('submit').style.left="21%";
+        document.getElementById('bakkano3d1').style.borderStyle="solid";
+        document.getElementById('bakkano3d2').style.borderStyle="solid";
+
+      }
+     else if(mx4.matches){
+       document.getElementById('submit').innerHTML="completa los datos";
+       document.getElementById('submit').style.fontSize="15px";
+       document.getElementById('submit').style.backgroundColor="red";
+       document.getElementById('submit').style.paddingLeft="30px";
+       document.getElementById('submit').style.paddingright="30px";
+       document.getElementById('submit').style.left="13%";
+       document.getElementById('bakkano3d1').style.borderStyle="solid";
+       document.getElementById('bakkano3d2').style.borderStyle="solid";
+
+     }
+     else if(mx3.matches){
+         document.getElementById('submit').innerHTML="completa los datos";
+         document.getElementById('submit').style.fontSize="15px";
+         document.getElementById('submit').style.backgroundColor="red";
+         document.getElementById('submit').style.paddingLeft="30px";
+         document.getElementById('submit').style.paddingright="30px";
+         document.getElementById('submit').style.left="19%";
+         document.getElementById('bakkano3d1').style.borderStyle="solid";
+         document.getElementById('bakkano3d2').style.borderStyle="solid";
+
+       }
+       else{
+         document.getElementById('submit').innerHTML="completa los datos";
+         document.getElementById('submit').style.fontSize="15px";
+         document.getElementById('submit').style.backgroundColor="red";
+         document.getElementById('submit').style.paddingLeft="30px";
+         document.getElementById('submit').style.paddingright="30px";
+         document.getElementById('submit').style.left="11%";
+         document.getElementById('bakkano3d1').style.borderStyle="solid";
+         document.getElementById('bakkano3d2').style.borderStyle="solid";
+       }
+
+
+    }
+  }
 // else{   v1=  document.getElementById('name').value;
   // v2=  document.getElementById('quantity').value;
   // v3=  document.getElementById('tel').value;
@@ -1326,6 +1408,14 @@ else if(fonty=="15px"&&mx3.matches){
 
 
      else {
+       var langcheck=document.querySelector('#es')
+      var style=getComputedStyle(es)
+        lc=style.display
+        // console.log(lc);
+
+       // var langcheck=document.getElementById('es').style.display
+       if(lc=="none"){
+
 pname;
        // setTimeout(placename,0.0001);
        // clearTimeout(placename,2000);
@@ -1347,7 +1437,15 @@ pname;
     // v3
     // v4
     // v5
-      location.href="https://wa.me/34633902955?text="  + 'HOLA ! QUIERO RESERVAR UNA MESA EL DIA '+' '+ v5 +' '+ 'A LAS' +' '+v4+' ' +'PARA' +' '+v2+' '+'PERSONAS'+' '+ 'MI NOMBRE ES "'+' '+v1+''+'"'+' '+'MI TEL '+' '+v3+' '+ 'EN '+pname
+      location.href="https://wa.me/34633902955?text="  + 'Hi ! I WANT TO RESERVE A TABLE  THE DAY'+' '+ v5 +' '+ 'AT' +' '+v4+' ' +'FOR' +' '+v2+' '+'PERSONS'+' '+ 'MY NAME IS "'+' '+v1+''+'"'+' '+'MY TEL '+' '+v3+' '+ 'EN '+pname
+}
+else{
+  pname;
+
+  location.href="https://wa.me/34633902955?text="  + 'HOLA ! QUIERO RESERVAR UNA MESA EL DIA '+' '+ v5 +' '+ 'A LAS' +' '+v4+' ' +'PARA' +' '+v2+' '+'PERSONAS'+' '+ 'MI NOMBRE ES "'+' '+v1+''+'"'+' '+'MI TEL '+' '+v3+' '+ 'EN '+pname
+
+
+}
 }
 }
 
