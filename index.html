@@ -16,6 +16,7 @@
 
 
     <div id="container1">
+
       <img id="bakkanoname"src="bakkanoname.png" alt="">
       <img id="bakkanoname1"src="bakkanoname1.png" alt="">
       <img id="bakkanoname1fire"src="bakkanoname1fire.png" alt="">
@@ -31,6 +32,9 @@
       <img id="backgroundC" src="backgroundC.png" alt="">
       <img id="ar" src="arrowred.png" alt="">
       <img id="ab" src="arrowbla.png" alt="">
+      <img id="ablack2en" src="arrowbla.png" alt="">
+      <img id="ablack2es" src="arrowbla.png" alt="">
+      <img id="ared" src="arrowred.png" alt="">
 
 
 
@@ -2331,6 +2335,8 @@ else{
       }
 
       document.getElementById('bakkano2').onclick = function functionName() {
+        document.getElementById('ablack2en').style.display="inline-block";
+
         document.getElementById('background2C').style.display="none";
         document.getElementById('background1C').style.display="none";
         document.getElementById('backgroundC').style.display="none";
@@ -2376,6 +2382,9 @@ else{
         document.getElementById('insta').style.display="inline-block";
         document.getElementById('trip').style.top="-53%";
 }
+
+
+
 function lang(){
   document.getElementById('es').style.display="none";
 
@@ -2539,6 +2548,7 @@ document.getElementById('toast').onclick = function functionName() {
   document.getElementById('bk2menu').style.height="65%";
   document.getElementById('intoast').style.height="92%";
   document.getElementById('sign13fake').style.display="inline-block";
+  document.getElementById('ablack2en').style.display="none";
 
 
   document.getElementById('toast').style.width="0%";
@@ -2595,6 +2605,8 @@ document.getElementById('sign5fakees').onclick = function functionName() {
       document.getElementById('x11').style.display="inline-block";
   }
   document.getElementById('sign5fake').onclick = function functionName() {
+    document.getElementById('ablack2en').style.display="inline-block";
+
       document.getElementById('intoast').style.width="79%";
       document.getElementById('intoast').style.height="0%";
       document.getElementById('bk2menu').style.height="57%";
@@ -2924,6 +2936,7 @@ document.getElementById('sign5fakees').onclick = function functionName() {
     document.getElementById('lamp3').style.display="none";
     document.getElementById('sign5fake').style.display="inline-block";
     document.getElementById('sign14fake').style.display="inline-block";
+    document.getElementById('ablack2en').style.display="none";
 
     document.getElementById('snack').style.width="0%";
     document.getElementById('snack').style.height="0%";
@@ -2944,6 +2957,7 @@ document.getElementById('dishes').onclick = function functionName() {
   document.getElementById('lamp3').style.display="none";
   document.getElementById('sign5fake').style.display="inline-block";
   document.getElementById('sign15fake').style.display="inline-block";
+  document.getElementById('ablack2en').style.display="none";
 
   document.getElementById('dishes').style.width="0%";
     document.getElementById('texts3').style.display="inline-block";
@@ -2971,6 +2985,7 @@ document.getElementById('dishes').onclick = function functionName() {
     document.getElementById('x').style.display="none";
     document.getElementById('sign12fake').style.display="inline-block";
 
+    document.getElementById('ablack2en').style.display="none";
 
 
 
@@ -3425,6 +3440,7 @@ document.getElementById('gallery').onclick = function functionName() {
   document.getElementById('container1').style.height="2500%";
   document.getElementById('bk2up').style.height="13%";
   document.getElementById('bk2menu').style.height="84%";
+  document.getElementById('ablack2en').style.display="none";
 
 
   document.getElementById('intoast').style.width="79%";
@@ -3508,6 +3524,8 @@ document.getElementById('maps').onclick = function functionName(){
   document.getElementById('trip').style.width="18%";
   document.getElementById('trip').style.top="-53%";
   document.getElementById('mapring').style.display="none";
+  document.getElementById('ablack2en').style.display="none";
+
 
   document.getElementById('toast').style.display="none";
   document.getElementById('gallery').style.display="none";
@@ -3543,6 +3561,8 @@ document.getElementById('maps').onclick = function functionName(){
 }
 
   document.getElementById('sign6fake').onclick = function functionName(){
+    document.getElementById('ablack2en').style.display="inline-block";
+
     document.getElementById('maps2').style.width="0%";
     document.getElementById('maps2').style.left="49.5%";
     document.getElementById('maps2').style.top="-53.5%";
@@ -4515,8 +4535,224 @@ document.getElementById('wo2').onclick = function functionName() {
 // window.addEventListener('click',up)
 // window.addEventListener('click',down)
 
+document.getElementById('ablack2en').onclick= function functionName(){
 
 
+if (mx.matches) {
+
+
+document.getElementById('background2C').style.animationPlayState= "running";
+document.getElementById('background1C').style.animationPlayState= "running";
+document.getElementById('backgroundC').style.animationPlayState= "running";
+document.getElementById('ar').style.display="inline-block";
+document.getElementById('ab').style.display="inline-block";
+
+
+
+
+
+
+
+// document.getElementById('bakkanoname').style.display= "none";
+// document.getElementById('bakkan').style.display= "inline-block";
+// document.getElementById('olamp').style.display= "inline-block";
+document.getElementById('bakkanoname1fire').style.top= "46%";
+document.getElementById('bakkanoname1').style.top= "46%";
+document.getElementById('bakkanoname').style.top= "46%";
+document.getElementById('bakkanoname1fire').style.width= "45%";
+document.getElementById('bakkanoname1').style.width= "45%";
+document.getElementById('bakkanoname').style.width= "45%";
+document.getElementById('bakkanoname1fire').style.left= "29%";
+document.getElementById('bakkanoname1').style.left= "29%";
+document.getElementById('bakkanoname').style.left= "29%";
+
+//
+setTimeout(lang,500)
+document.getElementById('sign').style.display="none";
+document.getElementById('wifi').style.display="inline-block";
+
+document.getElementById('en').style.width= "0px";
+document.getElementById('bakkano1').style.display= "inline-block";
+document.getElementById('bakkano2').style.display= "inline-block";
+document.getElementById('es').style.width= "0px";
+
+ document.getElementById('tit1').style.display= "inline-block";
+// document.getElementById('tit2').style.display= "inline-block";
+document.getElementById('sign3').style.display= "inline-block";
+document.getElementById('sign4').style.display= "inline-block";
+}
+
+if(mx1.matches){
+document.getElementById('background2C').style.animationPlayState= "running";
+document.getElementById('background1C').style.animationPlayState= "running";
+document.getElementById('backgroundC').style.animationPlayState= "running";
+document.getElementById('ar').style.display="inline-block";
+document.getElementById('ab').style.display="inline-block";
+
+
+
+
+
+
+
+// document.getElementById('bakkanoname').style.display= "none";
+// document.getElementById('bakkan').style.display= "inline-block";
+// document.getElementById('olamp').style.display= "inline-block";
+document.getElementById('bakkanoname1fire').style.top= "46%";
+document.getElementById('bakkanoname1').style.top= "46%";
+document.getElementById('bakkanoname').style.top= "46%";
+document.getElementById('bakkanoname1fire').style.width= "42%";
+document.getElementById('bakkanoname1').style.width= "42%";
+document.getElementById('bakkanoname').style.width= "42%";
+document.getElementById('bakkanoname1fire').style.left= "31%";
+document.getElementById('bakkanoname1').style.left= "31%";
+document.getElementById('bakkanoname').style.left= "31%";
+
+//
+setTimeout(lang,500)
+document.getElementById('sign').style.display="none";
+document.getElementById('wifi').style.display="inline-block";
+
+document.getElementById('en').style.width= "0px";
+document.getElementById('bakkano1').style.display= "inline-block";
+document.getElementById('bakkano2').style.display= "inline-block";
+document.getElementById('es').style.width= "0px";
+document.getElementById('tit1').style.display= "inline-block";
+// document.getElementById('tit2').style.display= "inline-block";
+document.getElementById('sign3').style.display= "inline-block";
+document.getElementById('sign4').style.display= "inline-block";
+}
+if(mx2.matches){
+
+document.getElementById('background2C').style.animationPlayState= "running";
+document.getElementById('background1C').style.animationPlayState= "running";
+document.getElementById('backgroundC').style.animationPlayState= "running";
+document.getElementById('ar').style.display="inline-block";
+document.getElementById('ab').style.display="inline-block";
+
+
+
+
+
+
+
+// document.getElementById('bakkanoname').style.display= "none";
+// document.getElementById('bakkan').style.display= "inline-block";
+// document.getElementById('olamp').style.display= "inline-block";
+document.getElementById('bakkanoname1fire').style.top= "46%";
+document.getElementById('bakkanoname1').style.top= "46%";
+document.getElementById('bakkanoname').style.top= "46%";
+document.getElementById('bakkanoname1fire').style.width= "38%";
+document.getElementById('bakkanoname1').style.width= "38%";
+document.getElementById('bakkanoname').style.width= "38%";
+document.getElementById('bakkanoname1fire').style.left= "32.3%";
+document.getElementById('bakkanoname1').style.left= "32.3%";
+document.getElementById('bakkanoname').style.left= "32.3%";
+
+//
+setTimeout(lang,500)
+document.getElementById('sign').style.display="none";
+document.getElementById('wifi').style.display="inline-block";
+
+document.getElementById('en').style.width= "0px";
+document.getElementById('bakkano1').style.display= "inline-block";
+document.getElementById('bakkano2').style.display= "inline-block";
+document.getElementById('es').style.width= "0px";
+ document.getElementById('tit1').style.display= "inline-block";
+// document.getElementById('tit2').style.display= "inline-block";
+document.getElementById('sign3').style.display= "inline-block";
+document.getElementById('sign4').style.display= "inline-block";
+}
+if(mx3.matches){
+document.getElementById('background2C').style.animationPlayState= "running";
+document.getElementById('background1C').style.animationPlayState= "running";
+document.getElementById('backgroundC').style.animationPlayState= "running";
+document.getElementById('ar').style.display="inline-block";
+document.getElementById('ab').style.display="inline-block";
+
+
+
+
+
+
+
+// document.getElementById('bakkanoname').style.display= "none";
+// document.getElementById('bakkan').style.display= "inline-block";
+// document.getElementById('olamp').style.display= "inline-block";
+document.getElementById('bakkanoname1fire').style.top= "46%";
+document.getElementById('bakkanoname1').style.top= "46%";
+document.getElementById('bakkanoname').style.top= "46%";
+document.getElementById('bakkanoname1fire').style.width= "42%";
+document.getElementById('bakkanoname1').style.width= "42%";
+document.getElementById('bakkanoname').style.width= "42%";
+document.getElementById('bakkanoname1fire').style.left= "30%";
+document.getElementById('bakkanoname1').style.left= "30%";
+document.getElementById('bakkanoname').style.left= "30%";
+
+//
+setTimeout(lang,500)
+document.getElementById('sign').style.display="none";
+document.getElementById('wifi').style.display="inline-block";
+
+document.getElementById('en').style.width= "0px";
+document.getElementById('bakkano1').style.display= "inline-block";
+document.getElementById('bakkano2').style.display= "inline-block";
+document.getElementById('es').style.width= "0px";
+document.getElementById('tit1').style.display= "inline-block";
+
+// document.getElementById('tit2').style.display= "inline-block";
+document.getElementById('sign3').style.display= "inline-block";
+document.getElementById('sign4').style.display= "inline-block";
+
+
+}
+if(mx4.matches){
+
+
+document.getElementById('background2C').style.animationPlayState= "running";
+document.getElementById('background1C').style.animationPlayState= "running";
+document.getElementById('backgroundC').style.animationPlayState= "running";
+document.getElementById('ar').style.display="inline-block";
+document.getElementById('ab').style.display="inline-block";
+
+
+
+
+
+
+
+// document.getElementById('bakkanoname').style.display= "none";
+// document.getElementById('bakkan').style.display= "inline-block";
+// document.getElementById('olamp').style.display= "inline-block";
+document.getElementById('bakkanoname1fire').style.top= "46%";
+document.getElementById('bakkanoname1').style.top= "46%";
+document.getElementById('bakkanoname').style.top= "46%";
+document.getElementById('bakkanoname1fire').style.width= "36.5%";
+document.getElementById('bakkanoname1').style.width= "36.5%";
+document.getElementById('bakkanoname').style.width= "36.5%";
+document.getElementById('bakkanoname1fire').style.left= "33%";
+document.getElementById('bakkanoname1').style.left= "33%";
+document.getElementById('bakkanoname').style.left= "33%";
+
+//
+setTimeout(lang,500)
+document.getElementById('sign').style.display="none";
+document.getElementById('wifi').style.display="inline-block";
+
+document.getElementById('en').style.width= "0px";
+document.getElementById('bakkano1').style.display= "inline-block";
+document.getElementById('bakkano2').style.display= "inline-block";
+document.getElementById('es').style.width= "0px";
+document.getElementById('tit1').style.display= "inline-block";
+// document.getElementById('tit2').style.display= "inline-block";
+document.getElementById('sign3').style.display= "inline-block";
+document.getElementById('sign4').style.display= "inline-block";
+
+}
+else {
+
+}
+}
 
 
 
