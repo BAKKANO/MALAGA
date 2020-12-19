@@ -4555,18 +4555,23 @@ top: 81%;
 
       #bk2up{
         opacity: 0;
-        animation-name: bk2up;
-        animation-iteration-count: 3;
-        animation-timing-function:ease-in-out;
-        animation-duration: 0.1s;
-        animation-delay:0.5s;
-        animation-fill-mode: forwards;
+        animation-name: bk2up,bk2up0;
+        animation-iteration-count: 3,3;
+        animation-timing-function:ease-in-out,linear;
+        animation-duration: 0.1s,0.1s;
+        animation-delay:0.5s,0.5s;
+        animation-fill-mode:forwards, forwards;
+        animation-play-state: running,paused;
       }
 
       @keyframes bk2up{
           0% { opacity: 0}
           100% { opacity: 1}
         }
+        @keyframes bk2up0{
+            0% { opacity: 1}
+            100% { opacity: 0}
+          }
 
       #toast{
         opacity: 0;
@@ -5164,7 +5169,7 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 
 
 .price{ z-index: 3;font-size: 17PX;display: inline-block;color:RED;position:relative;left: 220px;top:5px;padding-right:0px;margin-bottom: -40px;margin-top:-10px;margin-left: 0px;margin-right:0px}
-#bk2menu{opacity: 0%;background-color: none;width: 0px;height:0px;position: absolute;top:300px;left:25px;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 10px;border-top: none;transition: height 1s}
+#bk2menu{opacity: 0%;background-color: none;width: 0px;height:0px;position: absolute;top:300px;left:25px;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 0px;border-top: none;transition-property:height,opacity,width;transition-duration: 1s,1s,0s;}
 #texts,#texts2,#texts3,#texts4,#fotos,#texts5 {transition: width 0.5s, height 1s, transform 1s;
   animation-name: texts;
   animation-duration: 1.5s;
@@ -5326,7 +5331,7 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
   width: 45px;
   top: 60px;
   z-index: 3;
-  left: 158px!important;
+  left: 158px;
   z-index: 3;
   transition: 0.5s;
 }
@@ -5335,7 +5340,7 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
   width: 25px;
   top: 30px;
   z-index: 3;
-  left: 168px!important;
+  left: 168px;
   z-index: 3;
   transition: 0.5s;
 }
@@ -5345,7 +5350,7 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
   top: 23px;
   z-index: 3;
   margin: 0,0,0,0;
-  left: 265px!important;
+  left: 265px;
   z-index: 3;
   transition: 0.5s;
 }
@@ -7427,6 +7432,29 @@ opacity: 0;
     transform: rotate(180deg);
 
      }
+
+
+
+     #bk2up{
+       opacity: 0;
+       animation-name: bk2up,bk2up0;
+       animation-iteration-count: 3,3;
+       animation-timing-function:ease-in-out,linear;
+       animation-duration: 0.1s,0.1s;
+       animation-delay:0.5s,0.5s;
+       animation-fill-mode:forwards, forwards;
+       animation-play-state: running,paused;
+     }
+
+     @keyframes bk2up{
+         0% { opacity: 0}
+         100% { opacity: 1}
+       }
+       @keyframes bk2up0{
+           0% { opacity: 1}
+           100% { opacity: 0}
+         }
+
 #bk2menu{left: 29px;}
 #sign {
     position: absolute;
@@ -7702,18 +7730,18 @@ h1 {
 @media only screen and (min-width:414px) {
   #mapsb1 {
 
-    left: 181px!important;
+    left: 181px;
 
 }
   #mapringb1 {
 
-    left: 167px!important;
+    left: 167px;
 
 }
 
   #instab1 {
 
-    left: 297px!important;
+    left: 297px;
 
 }
   .nachos {
