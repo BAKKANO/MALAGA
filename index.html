@@ -16,7 +16,7 @@
 
 
     <div id="container1">
-      
+
 
       <img id="bakkanoname"src="bakkanoname.png" alt="">
       <img id="bakkanoname1"src="bakkanoname1.png" alt="">
@@ -2337,6 +2337,9 @@ else{
 
       document.getElementById('bakkano2').onclick = function functionName() {
         document.getElementById('ablack2en').style.display="inline-block";
+        document.getElementById('bk2up').style.animationPlayState="running,paused";
+
+
 
         document.getElementById('background2C').style.display="none";
         document.getElementById('background1C').style.display="none";
@@ -2350,6 +2353,7 @@ else{
         document.getElementById('wifi').style.display="none";
 
         document.getElementById('sign').style.display="none";
+        document.getElementById('bk2menu').style.borderWidth="10px";
 
         document.getElementById('sign4').style.display="none";
         document.getElementById('sign4fake').style.display="inline-block";
@@ -4535,11 +4539,51 @@ document.getElementById('wo2').onclick = function functionName() {
 
 // window.addEventListener('click',up)
 // window.addEventListener('click',down)
+function bk2(){
+  document.getElementById('bk2up').style.display="none";
+
+}
 
 document.getElementById('ablack2en').onclick= function functionName(){
 
 
 if (mx.matches) {
+  document.getElementById('lamp3').style.display="none";
+  document.getElementById('bk2menu').style.height="0%";
+  document.getElementById('bk2menu').style.width="80%";
+    document.getElementById('bk2up').style.opacity="0%";
+    document.getElementById('bk2up').style.animationPlayState="paused,running";
+setTimeout(bk2,1000)
+  document.getElementById('bk2menu').style.opacity="0%";
+
+  document.getElementById('bakkanoname1').style.display="inline-block";
+  document.getElementById('bakkanoname1fire').style.display="inline-block";
+  document.getElementById('bakkanoname').style.display="inline-block";
+
+
+
+
+
+  document.getElementById('ablack2en').style.display="none";
+
+  document.getElementById('toast').style.display="none";
+  document.getElementById('dishes').style.display="none";
+  document.getElementById('gallery').style.display="none";
+  document.getElementById('snack').style.display="none";
+  document.getElementById('drinks').style.display="none";
+  document.getElementById('insta').style.display="none";
+  document.getElementById('trip').style.display="none";
+  document.getElementById('maps').style.display="none";
+  document.getElementById('bakkano2fake').style.display="none";
+
+
+  document.getElementById('mapring').style.display="none";
+  document.getElementById('sign4fake').style.display="none";
+  document.getElementById('sign4neon').style.display="none";
+
+
+
+
 
 
 document.getElementById('background2C').style.animationPlayState= "running";
@@ -4584,6 +4628,45 @@ document.getElementById('sign4').style.display= "inline-block";
 }
 
 if(mx1.matches){
+
+  document.getElementById('lamp3').style.display="none";
+  document.getElementById('bk2menu').style.height="0%";
+  document.getElementById('bk2menu').style.width="80%";
+    document.getElementById('bk2up').style.opacity="0%";
+    document.getElementById('bk2up').style.animationPlayState="paused,running";
+setTimeout(bk2,1000)
+  document.getElementById('bk2menu').style.opacity="0%";
+
+  document.getElementById('bakkanoname1').style.display="inline-block";
+  document.getElementById('bakkanoname1fire').style.display="inline-block";
+  document.getElementById('bakkanoname').style.display="inline-block";
+
+
+
+
+
+  document.getElementById('ablack2en').style.display="none";
+
+
+
+  document.getElementById('lamp3').style.display="none";
+
+  document.getElementById('toast').style.display="none";
+  document.getElementById('dishes').style.display="none";
+  document.getElementById('gallery').style.display="none";
+  document.getElementById('snack').style.display="none";
+  document.getElementById('drinks').style.display="none";
+  document.getElementById('insta').style.display="none";
+  document.getElementById('trip').style.display="none";
+  document.getElementById('maps').style.display="none";
+  document.getElementById('bakkano2fake').style.display="none";
+
+  document.getElementById('mapring').style.display="none";
+  document.getElementById('sign4fake').style.display="none";
+  document.getElementById('sign4neon').style.display="none";
+
+
+
 document.getElementById('background2C').style.animationPlayState= "running";
 document.getElementById('background1C').style.animationPlayState= "running";
 document.getElementById('backgroundC').style.animationPlayState= "running";
@@ -4625,6 +4708,47 @@ document.getElementById('sign4').style.display= "inline-block";
 }
 if(mx2.matches){
 
+
+
+  document.getElementById('lamp3').style.display="none";
+  document.getElementById('bk2menu').style.height="0%";
+  document.getElementById('bk2menu').style.width="80%";
+    document.getElementById('bk2up').style.opacity="0%";
+    document.getElementById('bk2up').style.animationPlayState="paused,running";
+setTimeout(bk2,1000)
+  document.getElementById('bk2menu').style.opacity="0%";
+
+  document.getElementById('bakkanoname1').style.display="inline-block";
+  document.getElementById('bakkanoname1fire').style.display="inline-block";
+  document.getElementById('bakkanoname').style.display="inline-block";
+
+
+
+
+
+  document.getElementById('ablack2en').style.display="none";
+
+
+
+  document.getElementById('lamp3').style.display="none";
+
+  document.getElementById('toast').style.display="none";
+  document.getElementById('dishes').style.display="none";
+  document.getElementById('gallery').style.display="none";
+  document.getElementById('snack').style.display="none";
+  document.getElementById('drinks').style.display="none";
+  document.getElementById('insta').style.display="none";
+  document.getElementById('trip').style.display="none";
+  document.getElementById('maps').style.display="none";
+  document.getElementById('bakkano2fake').style.display="none";
+
+  document.getElementById('mapring').style.display="none";
+  document.getElementById('sign4fake').style.display="none";
+  document.getElementById('sign4neon').style.display="none";
+
+
+
+
 document.getElementById('background2C').style.animationPlayState= "running";
 document.getElementById('background1C').style.animationPlayState= "running";
 document.getElementById('backgroundC').style.animationPlayState= "running";
@@ -4665,6 +4789,49 @@ document.getElementById('sign3').style.display= "inline-block";
 document.getElementById('sign4').style.display= "inline-block";
 }
 if(mx3.matches){
+
+
+
+
+
+
+  document.getElementById('lamp3').style.display="none";
+  document.getElementById('bk2menu').style.height="0%";
+  document.getElementById('bk2menu').style.width="80%";
+    document.getElementById('bk2up').style.opacity="0%";
+    document.getElementById('bk2up').style.animationPlayState="paused,running";
+setTimeout(bk2,1000)
+  document.getElementById('bk2menu').style.opacity="0%";
+
+  document.getElementById('bakkanoname1').style.display="inline-block";
+  document.getElementById('bakkanoname1fire').style.display="inline-block";
+  document.getElementById('bakkanoname').style.display="inline-block";
+
+
+
+
+
+  document.getElementById('ablack2en').style.display="none";
+
+
+  document.getElementById('mapring').style.display="none";
+  document.getElementById('maps').style.display="none";
+  document.getElementById('sign4fake').style.display="none";
+  document.getElementById('sign4neon').style.display="none";
+  document.getElementById('lamp3').style.display="none";
+
+
+  document.getElementById('toast').style.display="none";
+  document.getElementById('dishes').style.display="none";
+  document.getElementById('gallery').style.display="none";
+  document.getElementById('snack').style.display="none";
+  document.getElementById('drinks').style.display="none";
+  document.getElementById('insta').style.display="none";
+  document.getElementById('trip').style.display="none";
+  document.getElementById('maps').style.display="none";
+  document.getElementById('bakkano2fake').style.display="none";
+
+
 document.getElementById('background2C').style.animationPlayState= "running";
 document.getElementById('background1C').style.animationPlayState= "running";
 document.getElementById('backgroundC').style.animationPlayState= "running";
@@ -4708,6 +4875,45 @@ document.getElementById('sign4').style.display= "inline-block";
 
 }
 if(mx4.matches){
+
+
+
+
+
+  document.getElementById('lamp3').style.display="none";
+  document.getElementById('bk2menu').style.height="0%";
+  document.getElementById('bk2menu').style.width="80%";
+    document.getElementById('bk2up').style.opacity="0%";
+    document.getElementById('bk2up').style.animationPlayState="paused,running";
+setTimeout(bk2,1000)
+  document.getElementById('bk2menu').style.opacity="0%";
+
+  document.getElementById('bakkanoname1').style.display="inline-block";
+  document.getElementById('bakkanoname1fire').style.display="inline-block";
+  document.getElementById('bakkanoname').style.display="inline-block";
+
+
+
+
+
+  document.getElementById('ablack2en').style.display="none";
+
+  document.getElementById('mapring').style.display="none";
+  document.getElementById('sign4fake').style.display="none";
+  document.getElementById('lamp3').style.display="none";
+
+
+  document.getElementById('toast').style.display="none";
+  document.getElementById('dishes').style.display="none";
+  document.getElementById('gallery').style.display="none";
+  document.getElementById('snack').style.display="none";
+  document.getElementById('drinks').style.display="none";
+  document.getElementById('insta').style.display="none";
+  document.getElementById('trip').style.display="none";
+  document.getElementById('maps').style.display="none";
+  document.getElementById('bakkano2fake').style.display="none";
+
+
 
 
 document.getElementById('background2C').style.animationPlayState= "running";

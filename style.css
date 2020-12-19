@@ -1,6 +1,6 @@
 body{margin:0px;padding:0px;border:0px;height:80px;background-color:red;}
   @media only screen and (min-width:320px) {
-  
+
     #ar{position: absolute;width: 25%;top:39%;right:10%;display: none;transform: rotate(120deg);opacity: 0}
     #ablack2en, #ablack2es {
     position: absolute;
@@ -14,7 +14,7 @@ opacity: 0;
     animation:ablack2;animation-duration:2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;animation-delay: 1s;}
     @keyframes ablack2{
       0%,100%{opacity: 0;right:79%}
-      50%{opacity: 0;right:81%}
+      50%{opacity: 1;right:81%}
     }
 
     #ared{position: absolute;width: 20%;top:39%;right:10%;display: none;transform: rotate(180deg);}
@@ -2405,18 +2405,23 @@ opacity: 0;
 
       #bk2up{
         opacity: 0;
-        animation-name: bk2up;
-        animation-iteration-count: 3;
-        animation-timing-function:ease-in-out;
-        animation-duration: 0.1s;
-        animation-delay:0.5s;
-        animation-fill-mode: forwards;
+        animation-name: bk2up,bk2up0;
+        animation-iteration-count: 3,3;
+        animation-timing-function:ease-in-out,linear;
+        animation-duration: 0.1s,0.1s;
+        animation-delay:0.5s,0.5s;
+        animation-fill-mode:forwards, forwards;
+        animation-play-state: running,paused;
       }
 
       @keyframes bk2up{
           0% { opacity: 0}
           100% { opacity: 1}
         }
+        @keyframes bk2up0{
+            0% { opacity: 1}
+            100% { opacity: 0}
+          }
 
       #toast,#tostas{
         opacity: 0;
@@ -2831,7 +2836,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 #drinks,#bebidas2{width: 70%;height:16%;position: absolute;top:290px;left:15%;display: none;transition:1s}
 #gallery,#cocteles{width: 70%;height:16%;position: absolute;top:370px;left:15%;display: none;transition:1s}
 #intoast{padding-right: 0px;margin: 0px;padding: 0px;color: BLACK;z-index:2;left:10.9%;top:30px;position: absolute;width:0%;height:0%;transition: height 1s,width 0s;background: linear-gradient(WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,BLACK);border-radius: 10px;border-width: 0px;opacity:0%;font-size: 15px;font-family:'Righteous',cursive;font-style: bolder;text-align: left;}
-#bk2up{display:none;background-color: none;width: 80%;height:17%;position: absolute;top:20px;left:7%;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 10px;border-top:none;transition: height 1;transform: rotate(180deg);}
+#bk2up{display:none;background-color: none;width: 80%;height:17%;position: absolute;top:20px;left:7%;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 10px;border-top:none;transition-property:opacity;transition-duration: 1s;transform: rotate(180deg);}
 .span{color:RED;font-size: 17px;z-index:1;}
 .span1{color:RED;font-size: 20px;}
 .span1es{color:RED;font-size: 17px;}
@@ -3133,7 +3138,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
     margin-left: 0px;
     margin-right: 0px;
 }
-#bk2menu{opacity: 0%;background-color: none;width: 0px;height:0px;position: absolute;top:300px;left:7%;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 10px;border-top: none;transition: height 1s}
+#bk2menu{ opacity: 0%;background-color: none;width: 0px;height:0px;position: absolute;top:300px;left:7%;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 0px;border-top: none;transition-property:height,opacity,width;transition-duration: 1s,1s,0s;}
 #texts,#texts2,#texts3,#texts4,#fotos,#texts5,#textses,#texts2es,#texts3es,#texts5es,#texts4es,#fotoses {transition: width 0.5s, height 1s, transform 1s;
   animation-name: texts;
   animation-duration: 1.5s;
