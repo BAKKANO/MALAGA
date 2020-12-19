@@ -1,5 +1,9 @@
 body{margin:0px;padding:0px;border:0px;height:80px;background-color:red;}
   @media only screen and (min-width:320px) {
+    #chat{z-index: 6}
+    #chat_messages{z-index: 6}
+    #chat_messages{z-index: 6}
+    #chat-form{z-index: 4;position: absolute;background-color: red}
     #ar{position: absolute;width: 25%;top:39%;right:10%;display: none;transform: rotate(120deg);opacity: 0}
     #ablack2en, #ablack2es {
     position: absolute;
