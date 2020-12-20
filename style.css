@@ -3299,10 +3299,9 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 #bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display: none;width:42%;top:46%;}
     #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
-    #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
+    #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;transition-property: transform,bottom;transition-duration: 1s,1s;
     animation-duration: 10s,3s;
   animation-fill-mode: forwards,forwards;
-animation-timing-function: linear,linear;
 animation-iteration-count: 1,1;
 animation-play-state: running,paused;
 animation-delay: 10s,1s;
