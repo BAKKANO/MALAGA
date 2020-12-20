@@ -3302,16 +3302,27 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
     #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
     animation-duration: 10s,3s;
   animation-fill-mode: forwards,forwards;
-animation-timing-function: linear,ease-in-out;
+animation-timing-function: linear,linear;
 animation-iteration-count: 1,1;
 animation-play-state: running,paused;
 animation-delay: 10s,1s;
-opacity: 0;
+
 }
 @keyframes wheeldiv {
   0%{opacity: 1;bottom:0px;transform: rotate(0deg);}
     100%{opacity: 1;bottom:500px;transform: rotate(180deg);}
 
+}
+@keyframes wheeldiv2 {
+  0% {
+  opacity: 1;
+  left: 0%;}
+  100% {
+      opacity: 1;
+      bottom: 30px;
+      transform: rotate(0deg);
+      left: -2%;
+  }
 }
 
 
@@ -3378,17 +3389,7 @@ opacity: 0;
 }
 
 
-    @keyframes wheeldiv2 {
-      0% {
-      opacity: 1;
-      left: 0%;}
-      100% {
-          opacity: 1;
-          bottom: 30px;
-          transform: rotate(0deg);
-          left: -2%;
-      }
-}
+
 
 
     @keyframes over1{
@@ -5552,7 +5553,7 @@ h1 {
 
   #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
-  #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
+   #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
   animation-duration: 10s,3s;
 animation-fill-mode: forwards,forwards;
 animation-timing-function: linear,ease-in-out;
@@ -5579,6 +5580,8 @@ opacity: 0;
       left: -2%;
   }
 }
+
+
 
 #submit {
   transition: 0.4s;
