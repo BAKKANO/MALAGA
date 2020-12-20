@@ -3294,9 +3294,9 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
         animation-duration: 3s!important;
         animation-delay:3s;
       }
-    #bakkanoname1firefake{z-index: 3;position:absolute;transition: 1s;left: 31%;display:none;width:42%;top:46%;}
-#bakkanoname1fake{z-index: 3;position:absolute;transition: 1s;left: 31%;display: none;width:42%;top:46%;}
-#bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 31%;display: none;width:42%;top:46%;}
+    #bakkanoname1firefake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display:none;width:42%;top:46%;}
+#bakkanoname1fake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display: none;width:42%;top:46%;}
+#bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display: none;width:42%;top:46%;}
     #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
     #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
@@ -3823,7 +3823,7 @@ top: 81%;
     height: 160px;
     width: 160px;
     bottom: 480px;
-    left: 28%;
+    left: 26%;
     margin: 0px;
 }
 .allergens5es {
@@ -3869,7 +3869,7 @@ top: 81%;
         height: 160px;
         width: 160px;
         bottom: 480px;
-        left: 95px;
+        left: 89px;
         margin: 0px;
         transition: 1s;
     }
@@ -4092,12 +4092,12 @@ top: 81%;
 #sign.fade {
   opacity:0;
 }
-  #bakkano1{transform: rotate(0.5deg);z-index: 2;position: absolute;height:150px;width: 150px;bottom:300px;left: 104px;margin:0px;display: none;transition: height 1s}
-  #bakkano2{z-index: 2;position: absolute;height:160px;width: 160px;bottom:480px;left: 95px;margin:0px;display: none;transition: 1s}
-  #bakkano2fake{z-index: 2;position: absolute;height:160px;width: 160px;bottom:480px;left: 95px;;margin:0px;display: none;display: none}
+  #bakkano1{transform: rotate(0.5deg);z-index: 2;position: absolute;height:150px;width: 150px;bottom:300px;left: 98px;margin:0px;display: none;transition: height 1s}
+  #bakkano2{z-index: 2;position: absolute;height:160px;width: 160px;bottom:480px;left: 89px;margin:0px;display: none;transition: 1s}
+  #bakkano2fake{z-index: 2;position: absolute;height:160px;width: 160px;bottom:480px;left: 89px;;margin:0px;display: none;display: none}
   #bakkano1fake{transform: rotate(0.5deg);z-index: 2;position: absolute;height:150px;width: 150px;bottom:300.5px;left: 104px;margin:0px;display: none;transition: 10s}
   #sign3neon{z-index: 1;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 82px;margin:0px;transition: height 1s, width 1s ,transform 2s;display: none;}
-  #sign4neon{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left:77px;margin:0px;display:none;}
+  #sign4neon{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left:70px;margin:0px;display:none;}
 
   #sign2 {
       position: absolute;
@@ -4107,10 +4107,10 @@ top: 81%;
       margin: 0px;
       transition: height 1s, width 1s ,transform 2s;
   }
-  #sign3{z-index: 1;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 82px;margin:0px;transition: height 1s, width 1s ,transform 2s;display: none;}
-  #sign4{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width:196px;height:196px;bottom:461px;left: 77px;margin:0px;display:none;}
+  #sign3{z-index: 1;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 75px;margin:0px;transition: height 1s, width 1s ,transform 2s;display: none;}
+  #sign4{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width:196px;height:196px;bottom:461px;left: 71px;margin:0px;display:none;}
   #sign3fake{display:none;z-index: 1;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 82px;margin:0px;transition: height 1s, width 1s ,transform 2s;}
-  #sign4fake{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left: 77px;margin:0px;display:none;}
+  #sign4fake{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left: 70.5px;margin:0px;display:none;}
   #sign11fake{z-index: 3;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:35px;left: 130px;margin:0px;display:none;}
   #sign12fake{z-index: 3;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:35px;left: 130px;margin:0px;display:none;}
   #sign13fake{z-index: 3;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:35px;left: 130px;margin:0px;display:none;}
@@ -4271,10 +4271,10 @@ top: 81%;
 }
 
 
-#maps{display:none;position: absolute;width: 25px;top: -260px;z-index: 3;margin:0,0,0,0;left: 131px;z-index:3;transition: 0.5s;}
-#mapses{display:none;position: absolute;width: 25px;top: -260px;z-index: 3;margin:0,0,0,0;left: 131px;z-index:3;transition: 0.5s;}
+#maps{display:none;position: absolute;width: 25px;top: -260px;z-index: 3;margin:0,0,0,0;left: 124px;z-index:3;transition: 0.5s;}
+#mapses{display:none;position: absolute;width: 25px;top: -260px;z-index: 3;margin:0,0,0,0;left: 123px;z-index:3;transition: 0.5s;}
 
-#mapring{display:none;position: absolute;width: 45px;top: -210px;z-index: 3;margin:0,0,0,0;left: 122px;z-index: 3;transition: 0.5s;}
+#mapring{display:none;position: absolute;width: 45px;top: -210px;z-index: 3;margin:0,0,0,0;left: 115px;z-index: 3;transition: 0.5s;}
 #insta{display: none;position: absolute;width: 45px;top: -245px;z-index: 3;margin:0,0,0,0;left: 214px;z-index: 3;transition: 0.5s;}
 #instaring{display:none;position: absolute;width: 45px;top: -245px;z-index: 3;margin:0,0,0,0;left: 180px;z-index: 3}
 #ainsta{display: none;position: absolute;height:40px;width: 40px;top: -245px;z-index: 3;margin:0,0,0,0;left: 215px;z-index: 4;transition: 0.5s;border-radius: 10px;border-style: hidden;border-width: 10px;background-color: none}
@@ -4291,7 +4291,7 @@ top: 81%;
     left: 7px;
     z-index: 4;
 }
-#trip{display:none;position: absolute;width: 45px;top:-53%;z-index: 3;margin:0,0,0,0;left: 25px;transition: 0.5s}
+#trip{display:none;position: absolute;width: 45px;top:-53%;z-index: 3;margin:0,0,0,0;left: 12px;transition: 0.5s}
 #frame,#frameb1{
   opacity: 0;
   animation-name: mapring;
@@ -4467,7 +4467,7 @@ top: 81%;
   #es{width:80px;position:absolute;top:450px;left: 20px;display: none;z-index: 3;}
   #lamp{width:48px;position:absolute;top: 695px;left: 150px;}
   #lamp2{width:55px;position:absolute;top: 682px;left: 146px;position: absolute;display: inline-block;opacity: 0%;}
-  #lamp3{z-index:2;position: absolute;top:194px;width:45px;height:70px;left: 196px;display: none;}
+  #lamp3{z-index:2;position: absolute;top:194px;width:45px;height:70px;left: 190px;display: none;}
 
   #fire{width:30px;position:absolute;top: 705px;left: 158.5px;position: absolute;display: inline-block;opacity: 0%}
 
