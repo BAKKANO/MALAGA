@@ -745,7 +745,7 @@ opacity:1
     }
 #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
-    #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
+    #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
     animation-duration: 10s,3s;
   animation-fill-mode: forwards,forwards;
 animation-timing-function: linear,ease-in-out;
@@ -3316,7 +3316,7 @@ opacity: 0;
 @keyframes wheeldiv2 {
   0% {
   opacity: 1;
-  left: 0%;transform:rotate(180);bottom: 300px;}
+  left: 0%;transform:rotate(auto);bottom: auto;}
   100% {
       opacity: 1;
       bottom: 30px;
@@ -5553,7 +5553,7 @@ h1 {
 
   #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
-   #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
+   #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
   animation-duration: 10s,3s;
 animation-fill-mode: forwards,forwards;
 animation-timing-function: linear,ease-in-out;
@@ -6382,7 +6382,7 @@ opacity: 0;
  }
    #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
-   #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
+   #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
    animation-duration: 10s,3s;
  animation-fill-mode: forwards,forwards;
  animation-timing-function: linear,ease-in-out;
