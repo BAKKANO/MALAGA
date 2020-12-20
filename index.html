@@ -1019,7 +1019,7 @@ CHAMPÁN</span></p>
   <p id="gametit"> COMPLETE THE PUZZLE TO RECEIVE THE WIFI CODE </p>
   <!-- <img id="rope"src="rope.png" alt=""> -->
   <div id="code">
-    <p>Bakkano 1: MOLITRO123 <br>Bakkano 2: International2.0 </p>
+    <p>Bakkano 1:<span class="spanbaka"> MOLITRO123 </span><br>Bakkano 2:<span class="spanbaka"> international2.0</span> </p>
     <p id="homepage"><span class="spanny">❌</span></p>
   </div>
   <div id="gameover">
@@ -1798,6 +1798,13 @@ setInterval(placename,1000)
      var style=getComputedStyle(es)
        lc=style.display
       if(lc=="none"){
+        setTimeout(countdown4,8000)
+        setTimeout(countdown3,7000)
+        setTimeout(countdown2,6000)
+        setTimeout(countdown1,5000)
+
+
+
 
 // setTimeout(getLocation,10)
 // setTimeout(showPosition,20)
@@ -5419,8 +5426,18 @@ else {
 }
 }
 
-
-
+function countdown4(){
+  document.getElementById('gametit').innerHTML="4\n COMPLETE THE PUZZLE TO RECIVE THE WIFI KEY"
+}
+function countdown3(){
+  document.getElementById('gametit').innerHTML="3\n COMPLETE THE PUZZLE TO RECIVE THE WIFI KEY"
+}
+function countdown2(){
+  document.getElementById('gametit').innerHTML="2\n COMPLETE THE PUZZLE TO RECIVE THE WIFI KEY"
+}
+function countdown1(){
+  document.getElementById('gametit').innerHTML="1\n COMPLETE THE PUZZLE TO RECIVE THE WIFI KEY"
+}
 </script>
 
 
