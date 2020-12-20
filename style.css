@@ -3299,14 +3299,14 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 #bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display: none;width:42%;top:46%;}
     #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
 
-    #wheeldiv{animation-name: wheeldiv,wheeldiv2;opacity:1;z-index: 4;
+    #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
     animation-duration: 10s,3s;
   animation-fill-mode: forwards,forwards;
 animation-timing-function: linear,linear;
 animation-iteration-count: 1,1;
 animation-play-state: running,paused;
 animation-delay: 10s,1s;
-
+opacity: 0;
 }
 @keyframes wheeldiv {
   0%{opacity: 1;bottom:0px;transform: rotate(0deg);}
@@ -3316,7 +3316,7 @@ animation-delay: 10s,1s;
 @keyframes wheeldiv2 {
   0% {
   opacity: 1;
-  left: 0%;}
+  left: 0%;transform:rotate(180);bottom: 300px;}
   100% {
       opacity: 1;
       bottom: 30px;
