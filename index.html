@@ -1798,10 +1798,12 @@ setInterval(placename,1000)
      var style=getComputedStyle(es)
        lc=style.display
       if(lc=="none"){
-        setTimeout(countdown4,8000)
-        setTimeout(countdown3,7000)
-        setTimeout(countdown2,6000)
-        setTimeout(countdown1,5000)
+        setTimeout(countdown1,8000)
+        setTimeout(countdown2,7000)
+        setTimeout(countdown3,6000)
+        setTimeout(countdown4,5000)
+        setTimeout(countdown5,4000)
+
 
 
 
@@ -1847,6 +1849,12 @@ setInterval(placename,1000)
       setIntervalId =setInterval(check,100);
 }
 else {
+
+  setTimeout(countdown1es,8000)
+  setTimeout(countdown2es,7000)
+  setTimeout(countdown3es,6000)
+  setTimeout(countdown4es,5000)
+  setTimeout(countdown5es,4000)
   document.getElementById('gametit').innerHTML= "COMPLETA EL PUZZLE PARA RECIBIR LA CLAVE DEL WIFI";
   document.getElementById('bakkano2es').style.height= "0%";
 
@@ -5425,7 +5433,9 @@ else {
 
 }
 }
-
+function countdown5(){
+  document.getElementById('gametit').innerHTML="5\n COMPLETE THE PUZZLE TO RECIVE THE WIFI KEY"
+}
 function countdown4(){
   document.getElementById('gametit').innerHTML="4\n COMPLETE THE PUZZLE TO RECIVE THE WIFI KEY"
 }
@@ -5437,6 +5447,21 @@ function countdown2(){
 }
 function countdown1(){
   document.getElementById('gametit').innerHTML="1\n COMPLETE THE PUZZLE TO RECIVE THE WIFI KEY"
+}
+function countdown5es(){
+  document.getElementById('gametit').innerHTML="5\n COMPLETA EL PUZZLE PARA RECIBIR LA CLAVE DEL WIFI"
+}
+function countdown4es(){
+  document.getElementById('gametit').innerHTML="4\n COMPLETA EL PUZZLE PARA RECIBIR LA CLAVE DEL WIFI"
+}
+function countdown3es(){
+  document.getElementById('gametit').innerHTML="3\n COMPLETA EL PUZZLE PARA RECIBIR LA CLAVE DEL WIFI"
+}
+function countdown2es(){
+  document.getElementById('gametit').innerHTML="2\n COMPLETA EL PUZZLE PARA RECIBIR LA CLAVE DEL WIFI"
+}
+function countdown1es(){
+  document.getElementById('gametit').innerHTML="1\n COMPLETA EL PUZZLE PARA RECIBIR LA CLAVE DEL WIFI"
 }
 </script>
 
