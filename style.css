@@ -744,11 +744,12 @@ opacity:1
        transform: none;
      }
     }
-#wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
-#wheelfake{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
+#wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%,bottom:0px;transition-property: bottom,transform,opacity,width,top,left;transition-duration: 10s,10s,1s,2s,1s,1s;transition-timing-function:linear;opacity: 0;z-index: 4
+}
 
 
-    #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
+
+    /* #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
     animation-duration: 10s,3s;
   animation-fill-mode: forwards,forwards;
 animation-timing-function: linear,ease-in-out;
@@ -765,21 +766,21 @@ opacity: 0;
 @keyframes wheeldiv2 {
   0%{opacity: 1;bottom:default;transform:default;left:0%}
     100%{opacity: 1;bottom:30px;transform: rotate(0deg);left:9%}
-}
-.wheel1{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;position: absolute;width:90%;height:20%}
-    .wheel1{animation-name: wheel1;opacity:1;z-index: 4;
+}*/
+.wheel1{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;position: absolute;width:90%;height:20%;bottom:0px;transition-property: bottom,transform,opacity;transition-duration: 10s,10s,1s;opacity:0;z-index: 4}
+/*    .wheel1{animation-name: wheel1;opacity:1;z-index: 4;
     animation-duration: 20s;
   animation-fill-mode: forwards;
 animation-timing-function: linear;
 animation-iteration-count: 1;
 animation-play-state: paused;
 }
-@keyframes wheel1 {
+ @keyframes wheel1 {
   0%{opacity: 1;bottom:300px;transform: rotate(0deg);}
     100%{opacity: 1;bottom:0px;transform: rotate(180deg);}
 
 
-}
+}*/
 .dangerzone{display:inline-block;border-width: 10px; width:100px; height: 30px;border-color: red;border-style:HIDDEN;;bottom:500px;left:10px; position: absolute;}
 #dangerzone2{display:inline-block;border-width: 10px; width:100px; height: 30px;border-color: red;border-style:HIDDEN;;bottom:500px;left:10px; position: absolute;}
 
@@ -3300,9 +3301,10 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
     #bakkanoname1firefake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display:none;width:42%;top:46%;}
 #bakkanoname1fake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display: none;width:42%;top:46%;}
 #bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display: none;width:42%;top:46%;}
-    #wheeldiv{display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%;transition: 2s;}
+    #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%,bottom:0px;transition-property: bottom,transform,opacity,width,top,left;transition-duration: 10s,10s,1s,2s,1s,1s;transition-timing-function:linear;opacity: 0;z-index: 4
+    }
 
-   #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
+   /* #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
     animation-duration: 10s,3s;
 animation-fill-mode: none,forwards;
 animation-direction: normal,revers
@@ -3313,20 +3315,19 @@ opacity: 0;
 }
 @keyframes wheeldiv {
   0%{opacity: 1;bottom:0px;transform: rotate(0deg);}
-    100%{opacity: 1;bottom:500px;transform: rotate(180deg);}
-
+  100%{opacity: 1;bottom:500px;transform: rotate(180deg);}
 }
 @keyframes wheeldiv2 {
   0% {
   opacity: 1;
-  left: 0%;transform:rotate(inherit);bottom:inherit; }
+  left: 0%;transform:rotate();bottom:; }
   100% {
       opacity: 1;
       bottom: 30px;
       transform: rotate(0deg);
       left: -2%;
   }
-}
+} */
 
 
 
@@ -5558,9 +5559,11 @@ h1 {
 #bakkanoname1fake{z-index: 3;position:absolute;transition: 1s;left: 30.5%;display: none;width:42%;top:46%;}
 #bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 30.5%;display: none;width:42%;top:46%;}
 
-  #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
+  #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%,bottom:0px;transition-property: bottom,transform,opacity,width,top,left;transition-duration: 10s,10s,1s,2s,1s,1s;transition-timing-function:linear;opacity: 0;z-index: 4
+  }
 
-   #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
+
+   /* #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
   animation-duration: 10s,3s;
 animation-fill-mode: forwards,forwards;
 animation-timing-function: linear,ease-in-out;
@@ -5587,6 +5590,7 @@ opacity: 0;
       left: -2%;
   }
 }
+ */
 
 
 
@@ -6387,9 +6391,10 @@ opacity: 0;
      top: 88%;
      left: 29.5%;
  }
-   #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
+   #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%,bottom:0px;transition-property: bottom,transform,opacity,width,top,left;transition-duration: 10s,10s,1s,2s,1s,1s;transition-timing-function:linear;opacity: 0;z-index: 4
+   }
 
-   #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
+   /* #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
    animation-duration: 10s,3s;
  animation-fill-mode: forwards,forwards;
  animation-timing-function: linear,ease-in-out;
@@ -6416,6 +6421,7 @@ opacity: 0;
        left: -2%;
    }
  }
+ */
    @keyframes intro {
    0% {
     top: 70%;

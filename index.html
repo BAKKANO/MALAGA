@@ -1805,8 +1805,7 @@ setInterval(placename,1000)
         setTimeout(countdown5,4000)
 
 
-setInterval(wheelfake,5000)
-
+setTimeout(wheeldivmove,10000)
 
 // setTimeout(getLocation,10)
 // setTimeout(showPosition,20)
@@ -4899,8 +4898,15 @@ else {
 
 document.getElementById('mo').onclick = function functionName() {
 
-   document.getElementById('wheeldiv').style.animationPlayState ="paused,running";
+   // document.getElementById('wheeldiv').style.animationPlayState ="paused,running";
     // document.getElementById('wheeldiv').style.animationDirection ="reverse";
+    if (mx.matches){
+    document.getElementById('wheeldiv').style.bottom="0px";
+    document.getElementById('wheeldiv').style.transform="rotate(0deg)";
+    document.getElementById('wheeldiv').style.opacity="1";
+    document.getElementById('wheeldiv').style.left="30px";
+
+    document.getElementById('wheeldiv').style.transitionDuration="7s,5s,1s,2s,1s,1s";
 
 
    // document.getElementById('rope').style.animationPlayState ="running,running,running,running";
@@ -4922,6 +4928,76 @@ document.getElementById('mo').onclick = function functionName() {
   document.getElementById('mofake').style.width ="23%";
 
 
+}
+if (mx1.matches){
+
+
+  document.getElementById('wheeldiv').style.bottom="0px";
+  document.getElementById('wheeldiv').style.transform="rotate(0deg)";
+  document.getElementById('wheeldiv').style.opacity="1";
+  document.getElementById('wheeldiv').style.left="0px";
+
+  document.getElementById('wheeldiv').style.transitionDuration="8s,2s,1s,2s,1s,1s";
+
+
+ // document.getElementById('rope').style.animationPlayState ="running,running,running,running";
+ document.getElementById('code').style.animationPlayState ="running,running,running";
+
+ document.getElementById('dangerzone2').style.display ="none";
+
+document.getElementById('mo').style.display ="none";
+ document.getElementById('om2').style.width ="0%";
+document.getElementById('ow').style.width ="0%";
+ document.getElementById('wo2').style.width ="0%";
+ document.getElementById('om2fake').style.width ="0%";
+document.getElementById('owfake').style.width ="0%";
+ document.getElementById('wo2fake').style.width ="0%";
+
+ document.getElementById('mofake').style.animationPlayState ="paused,running";
+
+// document.getElementById('mofake').style.top ="30.5%";
+document.getElementById('mofake').style.width ="23%";
+
+
+
+
+}
+else {
+
+
+
+    document.getElementById('wheeldiv').style.bottom="0px";
+    document.getElementById('wheeldiv').style.transform="rotate(0deg)";
+    document.getElementById('wheeldiv').style.opacity="1";
+    // document.getElementById('wheeldiv').style.left="px";
+
+    document.getElementById('wheeldiv').style.transitionDuration="7s,5s,1s,2s,1s,1s";
+
+
+   // document.getElementById('rope').style.animationPlayState ="running,running,running,running";
+   document.getElementById('code').style.animationPlayState ="running,running,running";
+
+   document.getElementById('dangerzone2').style.display ="none";
+
+  document.getElementById('mo').style.display ="none";
+   document.getElementById('om2').style.width ="0%";
+  document.getElementById('ow').style.width ="0%";
+   document.getElementById('wo2').style.width ="0%";
+   document.getElementById('om2fake').style.width ="0%";
+  document.getElementById('owfake').style.width ="0%";
+   document.getElementById('wo2fake').style.width ="0%";
+
+   document.getElementById('mofake').style.animationPlayState ="paused,running";
+
+  // document.getElementById('mofake').style.top ="30.5%";
+  document.getElementById('mofake').style.width ="23%";
+
+
+
+
+
+
+}
 }
 document.getElementById('om2').onclick = function functionName() {
     // document.getElementById('om2fake').style.top ="30.5%";
@@ -4951,6 +5027,7 @@ document.getElementById('wo2').onclick = function functionName() {
 function wheeldivmove(){
   document.getElementById('wheeldiv').style.bottom="500px";
   document.getElementById('wheeldiv').style.transform="rotate(180deg)";
+  document.getElementById('wheeldiv').style.opacity="1";
 
 }
 
@@ -4960,18 +5037,18 @@ function wheeldivmove(){
 
                              var wheeldiv=document.querySelector('#wheeldiv')
                             var style=getComputedStyle(wheeldiv)
-                              offsetbottom=style.bottom
-                               // console.log(offsetbottom)
-                              var dangerzone=document.querySelector('.dangerzone')
-                              var style=getComputedStyle(dangerzone)
-                              offsetbottom2=style.bottom
-                                 // console.log(offsetbottom2);
+                              u2=style.bottom
+                              // console.log(u2)
+                              // var dangerzone=document.querySelector('.dangerzone')
+                              // var style=getComputedStyle(dangerzone)
+                               // u3=style.bottom
+                                  // console.log(u3);
                                // var hole=document.querySelector('#hole')
                                // var style=getComputedStyle(hole)
                                 // top1=style.scrollY
                                  // console.log(scrollY);
 
-                                 if(offsetbottom==offsetbottom2){
+                                 if(u2=="500px"){
 
                                    document.getElementById('wheeldiv').style.width ="0%";
                                    document.getElementById('wheeldiv').style.top ="5%";
@@ -4994,24 +5071,7 @@ function wheeldivmove(){
 
 
 
-function wheelfake(){
 
-
-
-                               var wheeldiv=document.querySelector('#wheeldiv')
-                              var style=getComputedStyle(wheeldiv)
-                              u2=style.bottom
-                              console.log(u2,);
-
-                             u3= document.getElementById('wheelfake').style.bottom;
-                            u2=u3
-console.log(u3)
-
-
-
-
-
-}
 
                                   // document.getElementById('redball').style.left="50%";
 
