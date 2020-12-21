@@ -3313,13 +3313,13 @@ opacity: 0;
 }
 @keyframes wheeldiv {
   0%{opacity: 1;bottom:0px;transform: rotate(0deg);}
-    50%{opacity: 1;bottom:500px;transform: rotate(180deg);}
+    100%{opacity: 1;bottom:500px;transform: rotate(180deg);}
 
 }
 @keyframes wheeldiv2 {
-  50% {
+  0% {
   opacity: 1;
-  left: 0%;transform:rotate();bottom: ;}
+  left: 0%;transform:rotate(inherit);bottom:inherit; }
   100% {
       opacity: 1;
       bottom: 30px;
