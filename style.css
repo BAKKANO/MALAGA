@@ -745,6 +745,8 @@ opacity:1
      }
     }
 #wheeldiv{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
+#wheelfake{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%}
+
 
     #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
     animation-duration: 10s,3s;
@@ -761,7 +763,7 @@ opacity: 0;
 
 }
 @keyframes wheeldiv2 {
-  0%{opacity: 1;bottom:;transform:;left:0%}
+  0%{opacity: 1;bottom:default;transform:default;left:0%}
     100%{opacity: 1;bottom:30px;transform: rotate(0deg);left:9%}
 }
 .wheel1{transition: 2s;display: inline-block;border-width: 2px;border-style: hidden;border-color: red;position: absolute;width:90%;height:20%}
@@ -3300,7 +3302,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 #bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 29.5%;display: none;width:42%;top:46%;}
     #wheeldiv{display: inline-block;border-width: 2px;border-style: hidden;border-color: red;width:90%;height:20%;transition: 2s;}
 
-    /* #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
+   #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;
     animation-duration: 10s,3s;
 animation-fill-mode: none,forwards;
 animation-direction: normal,revers
@@ -3311,11 +3313,11 @@ opacity: 0;
 }
 @keyframes wheeldiv {
   0%{opacity: 1;bottom:0px;transform: rotate(0deg);}
-    100%{opacity: 1;bottom:500px;transform: rotate(180deg);}
+    50%{opacity: 1;bottom:500px;transform: rotate(180deg);}
 
 }
 @keyframes wheeldiv2 {
-  0% {
+  50% {
   opacity: 1;
   left: 0%;transform:rotate();bottom: ;}
   100% {
@@ -3324,25 +3326,8 @@ opacity: 0;
       transform: rotate(0deg);
       left: -2%;
   }
-} */
- #wheeldiv{animation-name: wheeldiv,wheeldiv2;z-index: 4;transition:2s;
-animation-duration: 10s,3s;
-animation-direction: normal,normal;
-animation-iteration-count: 1,1;
-animation-delay: 10s,1s;
-opacity: 0;
-animation-play-state: running,paused;
 }
-@keyframes wheeldiv {
-0%{opacity: 1;bottom:0px;transform: rotate(0deg);}
-100%{opacity: 1;bottom:500px;transform: rotate(180deg);}
 
-}
-@keyframes wheeldiv2 {
-0%{opacity: 1;}
-100%{opacity: 1;bottom:30px;transform: rotate(0deg);}
-
-}
 
 
 

@@ -1805,7 +1805,7 @@ setInterval(placename,1000)
         setTimeout(countdown5,4000)
 
 
-
+setInterval(wheelfake,5000)
 
 
 // setTimeout(getLocation,10)
@@ -4896,9 +4896,11 @@ else {
   }
 
 
+
 document.getElementById('mo').onclick = function functionName() {
 
    document.getElementById('wheeldiv').style.animationPlayState ="paused,running";
+    // document.getElementById('wheeldiv').style.animationDirection ="reverse";
 
 
    // document.getElementById('rope').style.animationPlayState ="running,running,running,running";
@@ -4946,6 +4948,11 @@ document.getElementById('wo2').onclick = function functionName() {
 
 
 }
+function wheeldivmove(){
+  document.getElementById('wheeldiv').style.bottom="500px";
+  document.getElementById('wheeldiv').style.transform="rotate(180deg)";
+
+}
 
 
                         function check(){
@@ -4987,7 +4994,24 @@ document.getElementById('wo2').onclick = function functionName() {
 
 
 
+function wheelfake(){
 
+
+
+                               var wheeldiv=document.querySelector('#wheeldiv')
+                              var style=getComputedStyle(wheeldiv)
+                              u2=style.bottom
+                              console.log(u2,);
+
+                             u3= document.getElementById('wheelfake').style.bottom;
+                            u2=u3
+console.log(u3)
+
+
+
+
+
+}
 
                                   // document.getElementById('redball').style.left="50%";
 
