@@ -1848,6 +1848,7 @@ setTimeout(wheeldivmove,10000)
       setIntervalId =setInterval(check,100);
 }
 else {
+  setTimeout(wheeldivmove,10000)
 
   setTimeout(countdown1es,8000)
   setTimeout(countdown2es,7000)
@@ -2420,6 +2421,7 @@ document.getElementById('sign3').onclick = function functionName() {
 // console.log(lc);
 // alert("fuck")
   document.getElementById('wifi').style.display="none";
+  document.getElementById('ared').style.display="inline-block";
 
   document.getElementById('background2C').style.display="none";
   document.getElementById('background1C').style.display="none";
@@ -2484,6 +2486,7 @@ document.getElementById('sign3').onclick = function functionName() {
 }
 else{
   console.log(lc);
+  document.getElementById('ared').style.display="inline-block";
 
   document.getElementById('background2C').style.display="none";
   document.getElementById('background1C').style.display="none";
@@ -3088,6 +3091,8 @@ if (foodcheck=="COMIDA"){
   behavior: 'smooth',
 
   });
+  document.getElementById('ared').style.display="none";
+
   document.getElementById('bakkanonamefake').style.display="none";
   document.getElementById('bakkanoname1fake').style.display="none";
   document.getElementById('bakkanoname1firefake').style.display="none";
@@ -3197,6 +3202,8 @@ else if (drinkcheck="DRINKS"){
   behavior: 'smooth',
 
   });
+  document.getElementById('ared').style.display="none";
+
   document.getElementById('bakkanonamefake').style.display="none";
   document.getElementById('bakkanoname1fake').style.display="none";
   document.getElementById('bakkanoname1firefake').style.display="none";
@@ -3308,6 +3315,8 @@ document.getElementById('bebidatras').onclick = function functionName() {
 
 }
 else{
+  document.getElementById('ared').style.display="inline-block";
+
   document.getElementById('bakkanonamefake').style.display="inline-block";
   document.getElementById('bakkanoname1fake').style.display="inline-block";
   document.getElementById('bakkanoname1firefake').style.display="inline-block";
@@ -3400,6 +3409,8 @@ document.getElementById('comidatras').onclick = function functionName() {
 
 }
 else {
+  document.getElementById('ared').style.display="inline-block";
+
   document.getElementById('bakkanonamefake').style.display="inline-block";
   document.getElementById('bakkanoname1fake').style.display="inline-block";
   document.getElementById('bakkanoname1firefake').style.display="inline-block";
@@ -4894,10 +4905,12 @@ else {
 }
   }
 
-
+function mojitochange(){
+  document.getElementById('wheel').src="wheelfake.png";
+}
 
 document.getElementById('mo').onclick = function functionName() {
-
+setTimeout(mojitochange,10000);
    // document.getElementById('wheeldiv').style.animationPlayState ="paused,running";
     // document.getElementById('wheeldiv').style.animationDirection ="reverse";
     if (mx.matches){
@@ -4999,6 +5012,67 @@ else {
 
 }
 }
+document.getElementById('llamarblack').onclick = function functionName() {
+  window.open("tel:+34633902955");
+}
+
+
+document.getElementById('ared').onclick = function functionName() {
+  document.getElementById('b1drinksmenu').style.display ="none";
+  document.getElementById('b1foodmenu').style.display ="none";
+
+  document.getElementById('bakkano1').style.display ="inline-block";
+  document.getElementById('bakkano1').style.display ="inline-block";
+  document.getElementById('b1drinksmenu-esfake').style.display ="none";
+  document.getElementById('b1foodmenu-esfake').style.display ="none";
+  document.getElementById('bakkanoname1fake').style.display ="none";
+  document.getElementById('bakkanoname1firefake').style.display ="none";
+  document.getElementById('bakkanonamefake').style.display ="none";
+  document.getElementById('sign3neon').style.display ="none";
+  document.getElementById('bakkano1fake').style.display ="none";
+  document.getElementById('comidabtn').style.display ="none";
+  document.getElementById('bebidabtn').style.display ="none";
+  document.getElementById('bakkanoname1').style.display ="inline-block";
+  document.getElementById('bakkanoname1fire').style.display ="inline-block";
+  document.getElementById('bakkanoname').style.display ="inline-block";
+  document.getElementById('llamarblack').style.display ="inline-block";
+  document.getElementById('wifi').style.display ="inline-block";
+  document.getElementById('reserve').style.display ="inline-block";
+  document.getElementById('tit1').style.display ="inline-block";
+  document.getElementById('ar').style.display ="inline-block";
+  document.getElementById('ab').style.display ="inline-block";
+  document.getElementById('razor3').style.zIndex ="0";
+  document.getElementById('smoke4').style.zindex ="0";
+  document.getElementById('sign4').style.display ="inline-block";
+  document.getElementById('backgroundC').style.display ="inline-block";
+  document.getElementById('background1C').style.display ="inline-block";
+  document.getElementById('background2C').style.display ="inline-block";
+
+
+
+  document.getElementById('sign3').style.display ="inline-block";
+
+  document.getElementById('ared').style.display ="none";
+  document.getElementById('sign3fake').style.display ="none";
+
+
+  document.getElementById('bakkano2').style.display ="inline-block";
+  document.getElementById('bakkano1').style.display ="inline-block";
+  document.getElementById('tripb1').style.display ="none";
+  document.getElementById('instab1').style.display ="none";
+  document.getElementById('mapsb1').style.display ="none";
+  document.getElementById('mapringb1').style.display ="none";
+
+
+
+
+
+
+
+
+
+}
+
 document.getElementById('om2').onclick = function functionName() {
     // document.getElementById('om2fake').style.top ="30.5%";
       document.getElementById('om2fake').style.animationPlayState ="paused,running,running";

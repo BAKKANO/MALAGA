@@ -18,11 +18,18 @@ opacity: 0;
       50%{opacity: 1;right:81%}
     }
 
-    #ared{position: absolute;width: 20%;top:39%;right:10%;display: none;transform: rotate(180deg);}
+    #ared{position: absolute;width: 20%;top:50%;right:10%;display: none;transform: rotate(0deg);  z-index: 4;
+  opacity: 0;
+      animation:ared;animation-duration:2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;animation-delay: 3s;}
+      @keyframes ared{
+        0%,100%{opacity: 0;left:79%}
+        50%{opacity: 1;left:81%}
+      }
 
-    #ar{position: absolute;width: 25%;top:39%;right:10%;display: none;transform: rotate(120deg);opacity: 0}
 
-    #ab{position: absolute;width: 25%;top:15%;right:10%;display: none;transform: rotate(120deg);opacity: 0}
+    #ar{position: absolute;width: 25%;top:39%;right:10%;display: none;transform: rotate(134deg);opacity: 0}
+
+    #ab{position: absolute;width: 25%;top:15%;right:10%;display: none;transform: rotate(134deg);opacity: 0}
     #ar,#ab{animation-name:ar1,ar;transition: 2s;
       animation-iteration-count:1,infinite;
       animation-timing-function: ease-in-out,ease-in-out;
@@ -1522,7 +1529,7 @@ margin-top: -150px;
       transition: height 1s, width 1s ,transform 2s;
   }
 #sign3 {
-    z-index: 3;
+    z-index: 4;
     transition: 1s;
     position: absolute;
     width: 192px;
@@ -2340,7 +2347,7 @@ opacity: 0;
       0%,100% { opacity: 0}
       50% { opacity: 1 }
     }
-  #sign3{
+  #sign3{z-index: 4;
     opacity: 0;
     animation-name: sign3;
     animation-iteration-count: 1000;
@@ -3282,7 +3289,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
     left: 77%!important;
 
 }
-    #sign3{
+    #sign3{z-index: 4;
       opacity: 0;
       animation-name: sign3;
       animation-iteration-count: 1000;
@@ -4116,7 +4123,7 @@ top: 81%;
       margin: 0px;
       transition: height 1s, width 1s ,transform 2s;
   }
-  #sign3{z-index: 1;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 75px;margin:0px;transition: height 1s, width 1s ,transform 2s;display: none;}
+  #sign3{z-index: 4;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 75px;margin:0px;transition: height 1s, width 1s ,transform 2s;display: none;}
   #sign4{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width:196px;height:196px;bottom:461px;left: 71px;margin:0px;display:none;}
   #sign3fake{display:none;z-index: 1;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 82px;margin:0px;transition: height 1s, width 1s ,transform 2s;}
   #sign4fake{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left: 70.5px;margin:0px;display:none;}
@@ -5539,7 +5546,7 @@ h1 {
     left: 77%!important;
 
 }
-  #sign3{
+  #sign3{z-index: 4;
     opacity: 0;
     animation-name: sign3;
     animation-iteration-count: 1000;
@@ -6359,7 +6366,7 @@ opacity: 0;
     position: absolute;
     left: 77.4%!important;
 }
-   #sign3{
+   #sign3{z-index: 4;
      opacity: 0;
      animation-name: sign3;
      animation-iteration-count: 1000;
@@ -7549,7 +7556,7 @@ h1 {
         bottom: 300px;
         left: 127px;}
 #sign3 {
-            z-index: 1;
+            z-index: 4;
             transition: 1s;
             position: absolute;
             width: 192px;
@@ -8046,7 +8053,7 @@ h1 {
      .t1{
          font-size: 13px!important;
         }
-  #sign3{
+  #sign3{z-index: 4;
     opacity: 0;
     animation-name: sign3;
     animation-iteration-count: 1000;
