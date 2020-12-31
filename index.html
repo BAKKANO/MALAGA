@@ -36,6 +36,8 @@
       <img id="ablack2en" src="arrowbla.png" alt="">
       <img id="ablack2es" src="arrowbla.png" alt="">
       <img id="ared" src="arrowred.png" alt="">
+      <img id="aredes" src="arrowred.png" alt="">
+
 
 
 
@@ -1756,7 +1758,6 @@ setInterval(placename,1000)
 
     document.getElementById('sign').onclick = function functionName() {
       document.getElementById('sign').style.opacity= "0%";
-  
       // document.getElementById('fire').style.opacity= "100%";
       // document.getElementById('lamp2').style.opacity= "100%";
       document.getElementById('sign2').style.height= "0px";
@@ -2421,7 +2422,7 @@ document.getElementById('sign3').onclick = function functionName() {
 // console.log(lc);
 // alert("fuck")
   document.getElementById('wifi').style.display="none";
-  document.getElementById('ared').style.display="inline-block";
+  document.getElementById('aredes').style.display="inline-block";
 
   document.getElementById('background2C').style.display="none";
   document.getElementById('background1C').style.display="none";
@@ -2485,6 +2486,9 @@ document.getElementById('sign3').onclick = function functionName() {
   document.getElementById('b1foodmenu-esfake').style.display="inline-block";
 }
 else{
+  document.getElementById('ared').style.display="inline-block";
+
+
   console.log(lc);
   document.getElementById('ared').style.display="inline-block";
 
@@ -3040,6 +3044,11 @@ if (foodcheck=="COMIDA"){
   behavior: 'smooth',
 
   });
+
+  document.getElementById('aredes').style.display="none";
+  document.getElementById('aredes').style.top="50%";
+
+
   document.getElementById('bakkanonamefake').style.display="none";
   document.getElementById('bakkanoname1fake').style.display="none";
   document.getElementById('bakkanoname1firefake').style.display="none";
@@ -3092,6 +3101,8 @@ if (foodcheck=="COMIDA"){
 
   });
   document.getElementById('ared').style.display="none";
+  document.getElementById('ared').style.top="50%";
+
 
   document.getElementById('bakkanonamefake').style.display="none";
   document.getElementById('bakkanoname1fake').style.display="none";
@@ -3154,6 +3165,10 @@ document.getElementById('bebidabtn').onclick = function functionName() {
   behavior: 'smooth',
 
   });
+  document.getElementById('aredes').style.display="none";
+  document.getElementById('aredes').style.top="50%";
+
+
   document.getElementById('bakkanonamefake').style.display="none";
   document.getElementById('bakkanoname1fake').style.display="none";
   document.getElementById('bakkanoname1firefake').style.display="none";
@@ -3203,6 +3218,8 @@ else if (drinkcheck="DRINKS"){
 
   });
   document.getElementById('ared').style.display="none";
+  document.getElementById('ared').style.top="50%";
+
 
   document.getElementById('bakkanonamefake').style.display="none";
   document.getElementById('bakkanoname1fake').style.display="none";
@@ -3272,6 +3289,9 @@ document.getElementById('bebidatras').onclick = function functionName() {
   var drinkfakecheck=document.getElementById('bebidabtnfake').innerHTML;
   // alert(drinkfakecheck)
   if(drinkfakecheck=="BEBIDAS<br>"){
+    document.getElementById('aredes').style.display="inline-block";
+    document.getElementById('aredes').style.top="52%";
+
     // alert("yes")
     document.getElementById('bakkanonamefake').style.display="inline-block";
     document.getElementById('bakkanoname1fake').style.display="inline-block";
@@ -3316,6 +3336,7 @@ document.getElementById('bebidatras').onclick = function functionName() {
 }
 else{
   document.getElementById('ared').style.display="inline-block";
+  document.getElementById('ared').style.display="51%";
 
   document.getElementById('bakkanonamefake').style.display="inline-block";
   document.getElementById('bakkanoname1fake').style.display="inline-block";
@@ -3364,6 +3385,10 @@ else{
 document.getElementById('comidatras').onclick = function functionName() {
   var foodfakecheck=document.getElementById('comidabtnfake').innerHTML;
   if(foodfakecheck=="COMIDA<br>"){
+    document.getElementById('aredes').style.display="inline-block";
+    document.getElementById('aredes').style.top="52%";
+
+
     // alert("yes")
     document.getElementById('bakkanonamefake').style.display="inline-block";
     document.getElementById('bakkanoname1fake').style.display="inline-block";
@@ -3410,6 +3435,7 @@ document.getElementById('comidatras').onclick = function functionName() {
 }
 else {
   document.getElementById('ared').style.display="inline-block";
+  document.getElementById('ared').style.display="51%";
 
   document.getElementById('bakkanonamefake').style.display="inline-block";
   document.getElementById('bakkanoname1fake').style.display="inline-block";
@@ -5017,6 +5043,54 @@ document.getElementById('llamarblack').onclick = function functionName() {
 }
 
 
+document.getElementById('aredes').onclick = function functionName() {
+  document.getElementById('b1drinksmenu').style.display ="none";
+  document.getElementById('b1foodmenu').style.display ="none";
+  document.getElementById('aredes').style.display ="none";
+
+  document.getElementById('bakkano1').style.display ="inline-block";
+  document.getElementById('bakkano1').style.display ="inline-block";
+  document.getElementById('b1drinksmenu-esfake').style.display ="none";
+  document.getElementById('b1foodmenu-esfake').style.display ="none";
+  document.getElementById('bakkanoname1fake').style.display ="none";
+  document.getElementById('bakkanoname1firefake').style.display ="none";
+  document.getElementById('bakkanonamefake').style.display ="none";
+  document.getElementById('sign3neon').style.display ="none";
+  document.getElementById('bakkano1fake').style.display ="none";
+  document.getElementById('comidabtn').style.display ="none";
+  document.getElementById('bebidabtn').style.display ="none";
+  document.getElementById('bakkanoname1').style.display ="inline-block";
+  document.getElementById('bakkanoname1fire').style.display ="inline-block";
+  document.getElementById('bakkanoname').style.display ="inline-block";
+  document.getElementById('llamarblack').style.display ="inline-block";
+  document.getElementById('wifi').style.display ="inline-block";
+  document.getElementById('reserve').style.display ="inline-block";
+  document.getElementById('tit2').style.display ="inline-block";
+  document.getElementById('ar').style.display ="inline-block";
+  document.getElementById('ab').style.display ="inline-block";
+  document.getElementById('razor3').style.zIndex ="0";
+  document.getElementById('smoke4').style.zindex ="0";
+  document.getElementById('sign4').style.display ="inline-block";
+  document.getElementById('backgroundC').style.display ="inline-block";
+  document.getElementById('background1C').style.display ="inline-block";
+  document.getElementById('background2C').style.display ="inline-block";
+
+
+
+  document.getElementById('sign3').style.display ="inline-block";
+
+  document.getElementById('ared').style.display ="none";
+  document.getElementById('sign3fake').style.display ="none";
+
+
+  document.getElementById('bakkano2es').style.display ="inline-block";
+  document.getElementById('bakkano1').style.display ="inline-block";
+  document.getElementById('tripb1').style.display ="none";
+  document.getElementById('instab1').style.display ="none";
+  document.getElementById('mapsb1').style.display ="none";
+  document.getElementById('mapringb1').style.display ="none";
+
+}
 document.getElementById('ared').onclick = function functionName() {
   document.getElementById('b1drinksmenu').style.display ="none";
   document.getElementById('b1foodmenu').style.display ="none";

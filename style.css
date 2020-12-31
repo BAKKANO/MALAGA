@@ -18,7 +18,7 @@ opacity: 0;
       50%{opacity: 1;right:81%}
     }
 
-    #ared{position: absolute;width: 20%;top:50%;right:10%;display: none;transform: rotate(0deg);  z-index: 4;
+    #ared,#aredes{position: absolute;width: 20%;top:50%;right:10%;display: none;transform: rotate(0deg);  z-index: 4;
   opacity: 0;
       animation:ared;animation-duration:2s;animation-fill-mode: forwards;animation-timing-function: ease-in-out;animation-iteration-count: infinite;animation-delay: 3s;}
       @keyframes ared{
@@ -49,7 +49,7 @@ opacity: 0;
    }
 
 
-#backgroundC{transition-property: height; transition-duration: 1s;animation:img2;animation-iteration-count:infinite;animation-play-state:paused;animation-timing-function: ease-in-out;animation-duration: 30s;animation-fill-mode: forwards;animation-delay:4s;opacity: 0;}
+#backgroundC{transition-property: height; transition-duration: 1s;animation:img2;animation-iteration-count:infinite;animation-play-state:paused;animation-timing-function: ease-in-out;animation-duration: 30s;animation-fill-mode: forwards;animation-delay:1s;opacity: 0;}
 
 
 @keyframes img2{
@@ -59,7 +59,7 @@ opacity: 0;
  100%{opacity: 0;}
 
 }
-#background1C{transition-property: height; transition-duration: 1s;animation:img1;animation-iteration-count: infinite;animation-play-state: paused;animation-timing-function: linear;animation-duration: 30s;animation-delay: 4s;opacity: 0;animation-fill-mode: forwards;}
+#background1C{transition-property: height; transition-duration: 1s;animation:img1;animation-iteration-count: infinite;animation-play-state: paused;animation-timing-function: linear;animation-duration: 30s;animation-delay: 1s;opacity: 0;animation-fill-mode: forwards;}
 @keyframes img1{
  0%{opacity: 0;}
  33.3%{opacity: 0;}
@@ -68,7 +68,7 @@ opacity: 0;
  100%{opacity: 0;}
 
 }
-#background2C{transition-property: height; transition-duration: 1s;animation:img0;animation-iteration-count: infinite;animation-play-state: paused;animation-timing-function: linear;animation-duration: 30s;animation-delay: 4s;opacity: 0%;}
+#background2C{transition-property: height; transition-duration: 1s;animation:img0;animation-iteration-count: infinite;animation-play-state: paused;animation-timing-function: linear;animation-duration: 30s;animation-delay: 1s;opacity: 0%;}
 @keyframes img0{
  0%{opacity: 0;}
  33.3%{opacity: 0;}
