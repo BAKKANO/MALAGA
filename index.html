@@ -1143,6 +1143,7 @@ else {
     document.getElementById('b1foodmenu').onclick=function functionName(){
       document.getElementById('b1foodmenu').style.transform +="rotate(90deg)";
     }
+
     document.getElementById('b1drinksmenu').onclick=function functionName(){
       document.getElementById('b1drinksmenu').style.transform +="rotate(90deg)";
     }
@@ -1157,7 +1158,7 @@ else {
 
 
      if(mx.matches){
-        document.getElementById('submit').innerHTML="complete the info";
+        document.getElementById('submit').innerHTML="Complete the info";
         document.getElementById('submit').style.fontSize="15px";
         document.getElementById('submit').style.backgroundColor="red";
         document.getElementById('submit').style.paddingLeft="30px";
@@ -1202,7 +1203,7 @@ else {
 
     }
     else if(mx3.matches){
-        document.getElementById('submit').innerHTML="complete the info";
+        document.getElementById('submit').innerHTML="Complete the info";
         document.getElementById('submit').style.fontSize="15px";
         document.getElementById('submit').style.backgroundColor="red";
         document.getElementById('submit').style.paddingLeft="30px";
@@ -1213,7 +1214,7 @@ else {
 
       }
       else{
-        document.getElementById('submit').innerHTML="complete the info";
+        document.getElementById('submit').innerHTML="Complete the info";
         document.getElementById('submit').style.fontSize="15px";
         document.getElementById('submit').style.backgroundColor="red";
         document.getElementById('submit').style.paddingLeft="30px";
@@ -1226,8 +1227,8 @@ else {
     else{
 
 
-      if(mx.matches){
-         document.getElementById('submit').innerHTML="completa los datos";
+       if(mx.matches){
+         document.getElementById('submit').innerHTML="Completa los datos";
          document.getElementById('submit').style.fontSize="15px";
          document.getElementById('submit').style.backgroundColor="red";
          document.getElementById('submit').style.paddingLeft="30px";
@@ -1238,19 +1239,20 @@ else {
 
 
        }
-        if(mx1.matches){
-         document.getElementById('submit').innerHTML="completa los datos";
+       if(mx1.matches){
+         document.getElementById('submit').innerHTML="fuck you";
          document.getElementById('submit').style.fontSize="15px";
          document.getElementById('submit').style.backgroundColor="red";
          document.getElementById('submit').style.paddingLeft="30px";
          document.getElementById('submit').style.paddingright="30px";
-         document.getElementById('submit').style.left="19%";
+         document.getElementById('submit').style.left="40%";
          document.getElementById('bakkano3d1').style.borderStyle="solid";
          document.getElementById('bakkano3d2').style.borderStyle="solid";
 
+
        }
        if(mx2.matches){
-        document.getElementById('submit').innerHTML="completa los datos";
+        document.getElementById('submit').innerHTML="Completa los datos";
         document.getElementById('submit').style.fontSize="15px";
         document.getElementById('submit').style.backgroundColor="red";
         document.getElementById('submit').style.paddingLeft="30px";
@@ -1261,7 +1263,7 @@ else {
 
       }
      else if(mx4.matches){
-       document.getElementById('submit').innerHTML="completa los datos";
+       document.getElementById('submit').innerHTML="Completa los datos";
        document.getElementById('submit').style.fontSize="15px";
        document.getElementById('submit').style.backgroundColor="red";
        document.getElementById('submit').style.paddingLeft="30px";
@@ -1272,7 +1274,7 @@ else {
 
      }
      else if(mx3.matches){
-         document.getElementById('submit').innerHTML="completa los datos";
+         document.getElementById('submit').innerHTML="Completa los datos";
          document.getElementById('submit').style.fontSize="15px";
          document.getElementById('submit').style.backgroundColor="red";
          document.getElementById('submit').style.paddingLeft="30px";
@@ -1283,12 +1285,13 @@ else {
 
        }
        else{
-         document.getElementById('submit').innerHTML="completa los datos";
+         document.getElementById('submit').innerHTML="Completa los datos";
          document.getElementById('submit').style.fontSize="15px";
          document.getElementById('submit').style.backgroundColor="red";
          document.getElementById('submit').style.paddingLeft="30px";
          document.getElementById('submit').style.paddingright="30px";
-         document.getElementById('submit').style.left="11%";
+         document.getElementById('submit').style.left="15%";
+
          document.getElementById('bakkano3d1').style.borderStyle="solid";
          document.getElementById('bakkano3d2').style.borderStyle="solid";
        }
@@ -1303,13 +1306,33 @@ else {
   // v5=  document.getElementById('date').value;
   // document.getElementById('bakkano3d1').style.borderStyle="hidden";
   // document.getElementById('bakkano3d2').style.borderStyle="hidden";
+  function mandar(){
+    if(mx.matches){
+        document.getElementById('submit').style.left="18%"
+      }
+
+        if(mx1.matches){
+            document.getElementById('submit').style.left="18%"
+      }
+      if(mx2.matches){
+          document.getElementById('submit').style.left="20%"
+    }
+    if(mx3.matches){
+        document.getElementById('submit').style.left="22%"
+  }  if(mx4.matches){
+        document.getElementById('submit').style.left="22%"
+  }
+      else {
+
+      }
+    }
 
 
     function restoresubmit(){
 
 
  var fonty=  document.getElementById('submit').style.fontSize;
- if(fonty=="15px"&&mx.matches){
+ if(fonty=="15px"&&mx.matches&&lc=="none"){
    document.getElementById('submit').style.fontSize="30px";
    document.getElementById('submit').innerHTML="SUBMIT";
    document.getElementById('submit').style.backgroundColor="black";
@@ -1320,7 +1343,7 @@ else {
 
 
  }
-  if(fonty=="15px"&&mx1.matches){
+  if(fonty=="15px"&&mx1.matches&&lc=="none"){
    document.getElementById('submit').style.fontSize="30px";
    document.getElementById('submit').innerHTML="SUBMIT";
    document.getElementById('submit').style.backgroundColor="black";
@@ -1331,7 +1354,7 @@ else {
 
 
  }
- if(fonty=="15px"&&mx2.matches){
+ if(fonty=="15px"&&mx2.matches&&lc=="none"){
   document.getElementById('submit').style.fontSize="30px";
   document.getElementById('submit').innerHTML="SUBMIT";
   document.getElementById('submit').style.backgroundColor="black";
@@ -1342,7 +1365,7 @@ else {
 
 
 }
-if(fonty=="15px"&&mx4.matches){
+if(fonty=="15px"&&mx4.matches&&lc=="none"){
  document.getElementById('submit').style.fontSize="30px";
  document.getElementById('submit').innerHTML="SUBMIT";
  document.getElementById('submit').style.backgroundColor="black";
@@ -1353,7 +1376,7 @@ if(fonty=="15px"&&mx4.matches){
 
 
 }
-else if(fonty=="15px"&&mx3.matches){
+else if(fonty=="15px"&&mx3.matches&&lc=="none"){
  document.getElementById('submit').style.fontSize="30px";
  document.getElementById('submit').innerHTML="SUBMIT";
  document.getElementById('submit').style.backgroundColor="black";
@@ -1364,15 +1387,48 @@ else if(fonty=="15px"&&mx3.matches){
 
 
 }
+
  else{
+   if(fonty=="15px"&&mx.matches&&lc=="block"){
    document.getElementById('submit').style.fontSize="30px";
-   document.getElementById('submit').innerHTML="SUBMIT";
+   document.getElementById('submit').innerHTML="MANDAR";
    document.getElementById('submit').style.backgroundColor="black";
    document.getElementById('submit').style.left="19%";
    document.getElementById('submit').style.paddingLeft="20px";
    document.getElementById('submit').style.paddingright="20px";
  }
+ if(fonty=="15px"&&mx1.matches&&lc=="block"){
+ document.getElementById('submit').style.fontSize="30px";
+ document.getElementById('submit').innerHTML="MANDAR";
+ document.getElementById('submit').style.backgroundColor="black";
+ document.getElementById('submit').style.left="25.5%";
+ document.getElementById('submit').style.paddingLeft="20px";
+ document.getElementById('submit').style.paddingright="20px";
+}   if(fonty=="15px"&&mx2.matches&&lc=="block"){
+   document.getElementById('submit').style.fontSize="30px";
+   document.getElementById('submit').innerHTML="MANDAR";
+   document.getElementById('submit').style.backgroundColor="black";
+   document.getElementById('submit').style.left="28.5%";
+   document.getElementById('submit').style.paddingLeft="20px";
+   document.getElementById('submit').style.paddingright="20px";
+ }   if(fonty=="15px"&&mx3.matches&&lc=="block"){
+    document.getElementById('submit').style.fontSize="30px";
+    document.getElementById('submit').innerHTML="MANDAR";
+    document.getElementById('submit').style.backgroundColor="black";
+    document.getElementById('submit').style.left="19%";
+    document.getElementById('submit').style.paddingLeft="20px";
+    document.getElementById('submit').style.paddingright="20px";
+  }
+  if(fonty=="15px"&&mx4.matches&&lc=="block"){
+  document.getElementById('submit').style.fontSize="30px";
+  document.getElementById('submit').innerHTML="MANDAR";
+  document.getElementById('submit').style.backgroundColor="black";
+  document.getElementById('submit').style.left="28.5%";
+  document.getElementById('submit').style.paddingLeft="20px";
+  document.getElementById('submit').style.paddingright="20px";
+}
     }
+  }
 
      document.getElementById('submit').onclick=function functionName(){
        v1=  document.getElementById('name').value;
@@ -1739,6 +1795,7 @@ setInterval(placename,1000)
     setInterval(datecheck,10)
     setInterval(threemen,10)
     setInterval(placename,1000)
+    setTimeout(mandar,0.001)
     // setInterval(fourmen,1000)
 
 
