@@ -2268,7 +2268,7 @@ opacity: 0;
     left: 200px;
     display: none;
 }
-  #es{width:80px;position:absolute;top:450px;left: 20px;display: none;}
+  #es{width:127px;position:absolute;top:451px;left: -4.5px;display: none;}
 #lamp {
     width: 48px;
     position: absolute;
@@ -4480,7 +4480,7 @@ top: 81%;
 
 #en{width:80px;position:absolute;top:450px;left: 238px;display: none;z-index: 3;}
 
-  #es{width:80px;position:absolute;top:450px;left: 20px;display: none;z-index: 3;}
+  #es{width:127px;position:absolute;top:451px;left: -1px;display: none;z-index: 3;}
   #lamp{width:48px;position:absolute;top: 695px;left: 150px;}
   #lamp2{width:55px;position:absolute;top: 682px;left: 146px;position: absolute;display: inline-block;opacity: 0%;}
   #lamp3{z-index:2;position: absolute;top:194px;width:45px;height:70px;left: 190px;display: none;}
@@ -5295,6 +5295,7 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 }
 
 @media only screen and (min-width:375px) {
+  #es{left:2px!important}
   #b1foodmenu-esfake {
     position: absolute;
     width: 200px;
@@ -6385,7 +6386,7 @@ opacity: 0;
    #bakkanoname1firefake{z-index: 3;position:absolute;transition: 1s;left: 31%;display:none;width:38%;top:46%;}
 #bakkanoname1fake{z-index: 3;position:absolute;transition: 1s;left: 32.3%;display: none;width:38%;top:46%;}
 #bakkanonamefake{z-index: 3;position:absolute;transition: 1s;left: 32.3%;display: none;width:38%;top:46%;}
-   #es{width:80px;position:absolute;top:550px;left: 20px;display: none;z-index: 3;}
+   #es{width:127px;position:absolute;top:550px;left: -3px;display: none;z-index: 3;}
 
    #submit {
      transition: 0.4s;
