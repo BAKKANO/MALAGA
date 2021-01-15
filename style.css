@@ -1,5 +1,6 @@
 body{margin:0px;padding:0px;border:0px;height:80px;background-color:red;}
   @media only screen and (min-width:320px) {
+    #en{left:175px!important;top:451px!important}
     .spanbaka{color: white}
 
     #ar{position: absolute;width: 25%;top:39%;right:10%;display: none;transform: rotate(120deg);opacity: 0}
@@ -2262,7 +2263,7 @@ opacity: 0;
 
 
 #en {
-    width: 80px;
+    width: 127px;
     position: absolute;
     top: 450px;
     left: 200px;
@@ -3278,6 +3279,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 }
 
   @media only screen and (min-width:360px) {
+    #en{left:214px!important;top:451px!important}
 
     #w1 {
     opacity: 0;
@@ -4478,7 +4480,7 @@ top: 81%;
 }
 
 
-#en{width:80px;position:absolute;top:450px;left: 238px;display: none;z-index: 3;}
+#en{width:127px;position:absolute;top:450px;left: 238px;display: none;z-index: 3;}
 
   #es{width:127px;position:absolute;top:451px;left: -1px;display: none;z-index: 3;}
   #lamp{width:48px;position:absolute;top: 695px;left: 150px;}
@@ -5295,6 +5297,7 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 }
 
 @media only screen and (min-width:375px) {
+  #en{left:222px!important;top:451px!important}
   #es{left:2px!important}
   #b1foodmenu-esfake {
     position: absolute;
@@ -6225,7 +6228,7 @@ opacity: 0;
     margin: 0px;
     }
   #en {
-    width: 80px;
+    width: 127px;
     position: absolute;
     top: 450px;
     left: 250px;
@@ -6358,6 +6361,7 @@ opacity: 0;
 
 
  @media only screen and (min-width:400px) {
+   #en{top:550px!important;left:258px!important}
    #w1 {
     opacity: 0;
     transition: 1s;
@@ -7752,6 +7756,7 @@ h1 {
 }
 
 @media only screen and (min-width:414px) {
+  #en{left:263px!important}
   #mapsb1 {
 
     left: 181px;
