@@ -3409,6 +3409,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 }
 
   @media only screen and (min-width:360px) {
+
     #en{left:214px!important;top:451px!important}
 
     #w1 {
@@ -5481,6 +5482,53 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 }
 
 @media only screen and (min-width:375px) {
+  #brown {
+    position: absolute;
+    opacity: 100%;
+    width: 99px;
+    left: 182px;
+    top: 425px;
+    height: 14%;
+    z-index: 1;
+}
+#cafe {
+    position: absolute;
+    opacity: 100%;
+    width: 98px;
+    left: 182px;
+    top: 580px;
+    height: 19%;
+    z-index: 1;
+}
+#pan {
+    position: absolute;
+    opacity: 100%;
+    width: 85px;
+    left: 195px;
+    top: 0px;
+    height: 17%;
+    z-index: 1;
+}
+#zumo {
+    position: absolute;
+    opacity: 100%;
+    left: 141px;
+    left: 184px;
+    top: 991px;
+    height: 11%;
+    z-index: 1;
+}
+  #bakkano2fake {
+    z-index: 2;
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    left: 87px;
+    margin: 0px;
+    display: none;
+    display: none;
+    top:20%
+}
   #en{left:222px!important;top:451px!important}
   #es{left:2px!important}
   #b1foodmenu-esfake {
@@ -6149,18 +6197,27 @@ opacity: 0;
     z-index: 5;
 }
 
-  #x11en {
-    font-weight: bolder;
-    font-size: 45PX;
-    display: inline-block;
-    color: RED;
-    top: 90%;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+#x11en {
+  font-weight: bolder;
+  font-size: 45PX;
+  display: inline-block;
+  color: RED;
+  top: 100%;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 2;
+}
+#lamp3 {
     z-index: 2;
+    position: absolute;
+    top: 213px;
+    width: 45px;
+    height: 70px;
+    left: 187px;
+    display: none;
 }
   .tags {
     display: inline-block;
@@ -6402,15 +6459,15 @@ opacity: 0;
     color: black;
     font-size: 19px;
     }
-  #bakkano2esfake {
-    z-index: 2;
-    position: absolute;
-    height: 160px;
-    width: 160px;
-    bottom: 480px;
-    left: 27%;
-    margin: 0px;
-    }
+    #bakkano2esfake {
+      z-index: 2;
+      position: absolute;
+      height: 160px;
+      width: 160px;
+      bottom: 519px;
+      left: 25%;
+      margin: 0px;
+  }
   #en {
     width: 127px;
     position: absolute;
