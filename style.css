@@ -1,5 +1,56 @@
 body{margin:0px;padding:0px;border:0px;height:80px;background-color:red;}
   @media only screen and (min-width:320px) {
+    #x000{
+    left: 120px;
+    font-weight: bolder;
+    font-size: 45PX;
+    display: inline-block;
+    color: RED;
+    position: absolute;
+    top: 1204px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 2;
+}
+    #cafe {
+    position: absolute;
+    opacity: 100%;
+    width: 85px;
+    left: 151px;
+    top: 580px;
+    height: 17%;
+    z-index: 1;
+}
+#pan {
+position: absolute;
+opacity: 100%;
+width: 85px;
+left: 151px;
+top: 0px;
+height: 17%;
+z-index: 1;
+}
+#zumo {
+position: absolute;
+opacity: 100%;
+width: 85px;
+left: 151px;
+top: 1075px;
+height: 10%;
+z-index: 1;
+}
+#brown {
+    position: absolute;
+    opacity: 100%;
+    width: 85px;
+    left: 151px;
+    top: 442px;
+    height: 10%;
+    z-index: 1;
+}
     #en{left:175px!important;top:451px!important}
     .spanbaka{color: white}
 
@@ -7,7 +58,7 @@ body{margin:0px;padding:0px;border:0px;height:80px;background-color:red;}
     #ablack2en,#ablack2es {
     position: absolute;
     width: 20%;
-    top: 28%;
+    top: 26%;
     right: 79%;
     display: none;
     transform: rotate(180deg);
@@ -1146,7 +1197,7 @@ opacity: 0;
     display: inline-block;
     color: RED;
     position: absolute;
-    top: 110%;
+    top: 118%;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -1222,8 +1273,8 @@ animation-play-state:running;
   50%{right:50%;}
 }}*/
 
+#container1{transition: height 0.5s;background-color: black;height: 790px;position:relative;border-radius: 50px;border-style:double;border-width: 10px;border-color:red;}
 
-  #container1{transition: height 0.5s;background-color: black;height: 790px;position:relative;border-radius: 50px;border-style:double;border-width: 10px;border-color:red;}
 #sign11fake{display:none;width:0px;}
 #sign13fake{display:none;width:0px;}
 #sign13fakees{display:none;width:0px;}
@@ -1505,11 +1556,11 @@ margin-top: -150px;
     display: none;
     transition: 10s;
 }
-#bakkano2esfake{z-index: 2;position: absolute;height:160px;width: 160px;bottom:480px;left: 24.5%;;margin:0px;display: none;display: none}
+#bakkano2esfake{z-index: 2;position: absolute;height:160px;width: 160px;bottom:520px;left: 24.5%;;margin:0px;display: none;display: none}
 
-  #bakkano2fake{z-index: 2;position: absolute;height:160px;width: 160px;bottom:480px;left: 24.5%;;margin:0px;display: none;display: none}
+  #bakkano2fake{top:20%;z-index: 2;position: absolute;height:160px;width: 160px;bottom:480px;left: 24.5%;;margin:0px;display: none;display: none}
   #sign3neon{z-index: 2;transition: 1s;position: absolute;width: 192px;bottom:280px;left: 82px;margin:0px;transition: height 1s, width 1s ,transform 2s;display: none;}
-  #sign4neon{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left:18.5%;margin:0px;display:none;}
+  #sign4neon{top:18.1%;z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left:18.5%;margin:0px;display:none;}
   #sign4 {
       z-index: 1;
       transition: height 0.1s,width 1s,rotate 1s;
@@ -1604,7 +1655,7 @@ margin-top: -150px;
     margin: 0px;
     display: none;
 }
-  #sign4fake{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left: 18.5%;margin:0px;display:none;}
+  #sign4fake{top:18.1%;z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 196px;bottom:461px;left: 18.5%;margin:0px;display:none;}
   #sign5fake,#sign5fakees{z-index: 3;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:35px;left: 36%;margin:0px;display:none;}
   #sign6fake{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:20px;left: 31.5%;margin:0px;display:none}
   #sign6fakees{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:20px;left: 31.5%;margin:0px;display:none}
@@ -2276,6 +2327,15 @@ opacity: 0;
     top: 695px;
     left: 132.5px;
 }
+#lamp3 {
+    z-index: 2;
+    position: absolute;
+    top: 213px;
+    width: 45px;
+    height: 70px;
+    left: 58%;
+    display: none;
+}
 #lamp2 {
     width: 55px;
     position: absolute;
@@ -2285,7 +2345,8 @@ opacity: 0;
     display: inline-block;
     opacity: 0%;
 }
-#lamp3{z-index:2;position: absolute;top:194px;width:45px;height:70px;left: 58%;display: none;}
+/*
+#lamp3{z-index:2;position: absolute;top:194px;width:45px;height:70px;left: 58%;display: none;} */
 #fire {
       width: 30px;
       position: absolute;
@@ -2456,6 +2517,15 @@ opacity: 0;
           animation-timing-function:ease-out;
           animation-duration: 0.1s;
           animation-delay:1.3s;
+          animation-fill-mode:forwards;
+        }
+        #breakfast,#desayuno{
+          opacity: 0;
+          animation-name: snack;
+          animation-iteration-count:4;
+          animation-timing-function:ease-out;
+          animation-duration: 0.1s;
+          animation-delay:1.6s;
           animation-fill-mode:forwards;
         }
 
@@ -2839,14 +2909,69 @@ font-weight: bolder;top:530px;border-style: double;border-radius: 0px;border-wid
 /* h1:hover{background-color:black;font-size: 30px;border-radius: 100px;color:orange;border-width:0PX;border-color:BLACK;} */
 h2{background-color: none;transition: 0.5s;z-index: 1;color:orange;font-size:20px;position: absolute;display: inline-block;text-align:center;font-family: 'Monoton', cursive;
 font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width: 0px;padding-left: 2px;padding-right:2px;}
-#tostas{width: 70%;height:16%;position: absolute;top:50px;left:15%;display: none;transition:1s;}
-#toast{width: 70%;height:16%;position: absolute;top:50px;left:15%;display: none;transition:1s;}
-#snack{width: 70%;height:16%;position: absolute;top:130px;left:15%;display: none;transition:1s}
-#tapas{width: 70%;height:16%;position: absolute;top:130px;left:15%;display: none;transition:1s}
+#tostas{width: 70%;height:12.5%;position: absolute;top:129px;left:15%;display: none;transition:1s;}
+/* #toast{width: 70%;height:12.5%;position: absolute;top:90px;left:15%;display: none;transition:1s;} */
+/* #snack{width: 70%;height:16%;position: absolute;top:130px;left:15%;display: none;transition:1s} */
+#tapas{width: 70%;height:12.5%;position: absolute;top:210px;left:15%;display: none;transition:1s}
+#desayuno{width: 70%;height:12.5%;position: absolute;top:53px;left:15%;display: none;transition:1s}
 
-#dishes,#platos{width: 70%;height:16%;position: absolute;top:210px;left:15%;display: none;transition:1s}
-#drinks,#bebidas2{width: 70%;height:16%;position: absolute;top:290px;left:15%;display: none;transition:1s}
-#gallery,#cocteles{width: 70%;height:16%;position: absolute;top:370px;left:15%;display: none;transition:1s}
+/* #dishes,#platos{width: 70%;height:16%;position: absolute;top:210px;left:15%;display: none;transition:1s} */
+/* #drinks,#bebidas2{width: 70%;height:16%;position: absolute;top:290px;left:15%;display: none;transition:1s} */
+/* #gallery,#cocteles{width: 70%;height:16%;position: absolute;top:370px;left:15%;display: none;transition:1s} */
+#dishes, #platos {
+    width: 70%;
+    height: 12.5%;
+    position: absolute;
+    top: 293px;
+    left: 15%;
+    display: none;
+    transition: 1s;
+}
+#drinks, #bebidas2 {
+    width: 70%;
+    height: 12.5%;
+    position: absolute;
+    top: 373px;
+    left: 15%;
+    display: none;
+    transition: 1s;
+}
+#gallery, #cocteles {
+    width: 70%;
+    height: 12.5%;
+    position: absolute;
+    top: 449px;
+    left: 15%;
+    display: none;
+    transition: 1s;
+}
+#snack {
+    width: 70%;
+    height: 12.5%;
+    position: absolute;
+    top: 215px;
+    left: 15%;
+    display: none;
+    transition: 1s;
+}
+#breakfast{
+    width: 70%;
+    height: 12.5%;
+    position: absolute;
+    top: 9%;
+    left: 15%;
+    display: none;
+    transition: 1s;
+}
+#toast {
+    width: 70%;
+    height: 12.5%;
+    position: absolute;
+    top: 132px;
+    left: 15%;
+    display: none;
+    transition: 1s;
+}
 #intoast{padding-right: 0px;margin: 0px;padding: 0px;color: BLACK;z-index:2;left:10.9%;top:30px;position: absolute;width:0%;height:0%;transition: height 1s,width 0s;background: linear-gradient(WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,BLACK);border-radius: 10px;border-width: 0px;opacity:0%;font-size: 15px;font-family:'Righteous',cursive;font-style: bolder;text-align: left;}
 #bk2up{display:none;background-color: none;width: 80%;height:17%;position: absolute;top:20px;left:7%;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 10px;border-top:none;transition-property:opacity;transition-duration: 1s;transform: rotate(180deg);}
 .span{color:RED;font-size: 17px;z-index:1;}
@@ -2865,6 +2990,9 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 
 
 #texts{display: none;position: relative;left: 1PX;z-index:0;}
+#breakcon{display: none;position: relative;left: 1PX;z-index:0;}
+#desacon{display: none;position: relative;left: 1PX;z-index:0;}
+
 #texts2,#texts2es{display: none;position: relative;left: 1PX;font-size: 20px;}
 #texts3,#texts3es{display: none;position: relative;left: 1PX;font-size: 17px;text-align: LEFT;}
 #texts4,#texts4es{display: none;position: relative;left: 1PX;font-size: 13px;text-align: LEFT;top:5%}
@@ -3049,7 +3177,7 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
     0%,100% { opacity: 0;font-size: 45px;left:110px;}
     50% { opacity: 1;font-size:40px;left:100px; }
   }
-#x,#x2,#x0{
+#x,#x2,#x0,#x000{
   opacity: 0;
   animation-name: x;
   animation-iteration-count: 10000;
@@ -3118,16 +3246,16 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 
 
 #x0{left: 120px;font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:822px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
-#x3{font-weight: bolder;color:RED;position:absolute;top:359px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:0;display:none;}
+#x3{font-weight: bolder;color:RED;position:absolute;top:439px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:0;display:none;}
 #x3b1{font-weight: bolder;color:white;position:absolute;top:705px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:0;display:none;}
-#x11en{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:110%;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
+#x11en{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:120%;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
 
 #x12{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:136.5%;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
 #x13{font-weight: bolder;font-size: 45PX;display: none;color:RED;position:absolute;top:92%;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
-#xes{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:652px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
-#xes2{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:652px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
+#xes{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:702px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
+#xes2{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:705px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
 
-#x{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:652px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
+#x{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:707px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
 .price5{word-spacing:10px; font-size: 14PX;display: inline-block;color:RED;position:relative;left: 78px;top:0px;padding-right:0px;margin-bottom: -40px;margin-top:-10px;margin-left: 0px;margin-right:0px}
 .price6{word-spacing:10px;,font-size: 16PX;display: inline-block;color:RED;position:relative;left: 44px;top:-1px;padding-right:0px;margin-bottom: -40px;margin-top:-10px;margin-left: 0px;margin-right:0px}
 .price7{word-spacing:10px;,font-size: 16PX;display: inline-block;color:RED;position:relative;left: 28px;top:-1px;padding-right:0px;margin-bottom: -40px;margin-top:-10px;margin-left: 0px;margin-right:0px}
@@ -3150,8 +3278,10 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
     margin-left: 0px;
     margin-right: 0px;
 }
+#breakcon{display: none;position: relative;left: 1PX;z-index:0;}
+
 #bk2menu{ opacity: 0%;background-color: none;width: 0px;height:0px;position: absolute;top:300px;left:7%;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 0px;border-top: none;transition-property:height,opacity,width;transition-duration: 1s,1s,0s;}
-#texts,#texts2,#texts3,#texts4,#fotos,#texts5,#textses,#texts2es,#texts3es,#texts5es,#texts4es,#fotoses {transition: width 0.5s, height 1s, transform 1s;
+#desacon,#breakcon,#texts,#texts2,#texts3,#texts4,#fotos,#texts5,#textses,#texts2es,#texts3es,#texts5es,#texts4es,#fotoses {transition: width 0.5s, height 1s, transform 1s;
   animation-name: texts;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
@@ -3583,19 +3713,19 @@ top: 81%;
         top: 478px !important;
     }
     #x11en {
-    font-weight: bolder;
-    font-size: 45PX;
-    display: inline-block;
-    color: RED;
-    position: absolute;
-    top: 92%;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    z-index: 2;
-}
+        font-weight: bolder;
+        font-size: 45PX;
+        display: inline-block;
+        color: RED;
+        position: absolute;
+        top: 100%;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        z-index: 2;
+    }
 #reserva {
     left: 5px;
     top: 298px!important;
@@ -3734,7 +3864,7 @@ top: 81%;
     font-size: 45PX;
     color: RED;
     position: absolute;
-    top: 100%!important;
+    top: 108%!important;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -3840,7 +3970,7 @@ top: 81%;
     position: absolute;
     height: 160px;
     width: 160px;
-    bottom: 480px;
+    bottom: 520px;
     left: 26%;
     margin: 0px;
 }
@@ -4138,8 +4268,8 @@ top: 81%;
 
   #sign5fake{z-index: 3;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:35px;left: 130px;margin:0px;display:none;}
   #sign6fakeb1{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:2px;left: 126px;margin:0px;display:none}
-  #sign6fake{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:20px;left: 91.5px;margin:0px;display:none}
-  #sign6fakees{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:20px;left: 91.5px;margin:0px;display:none}
+  #sign6fake{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:88px;left: 91.5px;margin:0px;display:none}
+  #sign6fakees{z-index: 1;transition: height 0.1s,width 1s,rotate 1s;position: absolute;width: 90px;bottom:83px;left: 91.5px;margin:0px;display:none}
 
   #tit1es{display: none;font-size: 35PX;}
   #tit2es{display: none;font-size: 25PX;top: 590px;}
@@ -5009,11 +5139,65 @@ transform-style: preserve-3d;
     }
 h2{ top:73.5%;background-color: none;transition: 0.5s;z-index: 1;color:orange;font-size:20px;position: absolute;display: inline-block;text-align:center;font-family: 'Monoton', cursive;
 font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;padding-left: 2px;padding-right:2px;}
-#toast{width: 70%;height:16%;position: absolute;top:50px;left:40px;display: none;transition:1s;}
-#snack{width: 70%;height:16%;position: absolute;top:130px;left:40px;display: none;transition:1s}
-#dishes{width: 70%;height:16%;position: absolute;top:210px;left:40px;display: none;transition:1s}
-#drinks{width: 70%;height:16%;position: absolute;top:290px;left:40px;display: none;transition:1s}
-#gallery{width: 70%;height:16%;position: absolute;top:370px;left:40px;display: none;transition:1s}
+#breakfast {
+    width: 70%;
+    height: 13%;
+    position: absolute;
+    top: 8.5%;
+    left: 15%;
+    display: none;
+    transition: 1s;
+}
+#pan {
+    position: absolute;
+    opacity: 100%;
+    width: 85px;
+    left: 183px;
+    top: 0px;
+    height: 17%;
+    z-index: 1;
+}
+#brown {
+    position: absolute;
+    opacity: 100%;
+    width: 85px;
+    left: 182px;
+    top: 442px;
+    height: 10%;
+    z-index: 1;
+}
+#cafe {
+    position: absolute;
+    opacity: 100%;
+    width: 85px;
+    left: 182px;
+    top: 580px;
+    height: 17%;
+    z-index: 1;
+}
+#zumo {
+    position: absolute;
+    opacity: 100%;
+    left: 141px;
+    left: 172px;
+    top: 1015px;
+    height: 11%;
+    z-index: 1;
+}
+#lamp3 {
+    z-index: 2;
+    position: absolute;
+    top: 211px;
+    width: 45px;
+    height: 70px;
+    left: 190px;
+    display: none;
+}
+#toast{width: 70%;height:13%;position: absolute;top:126px;left:40px;display: none;transition:1s;}
+#snack{width: 70%;height:13%;position: absolute;top:210px;left:40px;display: none;transition:1s}
+#dishes{width: 70%;height:13%;position: absolute;top:290px;left:40px;display: none;transition:1s}
+#drinks{width: 70%;height:13%;position: absolute;top:370px;left:40px;display: none;transition:1s}
+#gallery{width: 70%;height:13%;position: absolute;top:446px;left:40px;display: none;transition:1s}
 #intoast{padding-right: 0px;margin: 0px;padding: 0px;color: BLACK;z-index:2;left:37px;top:30px;position: absolute;width:0%;height:0%;transition: height 1s,width 0s;background: linear-gradient(WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,WHITE,BLACK);border-radius: 10px;border-width: 0px;opacity:0%;font-size: 15px;font-family:'Righteous',cursive;font-style: bolder;text-align: left;}
 #bk2up{display:none;background-color: none;width: 80%;height:17%;position: absolute;top:20px;left:26px;border-style: groove;border-radius: 20PX;border-color:WHITE;border-width: 10px;border-top:none;transition: height 1;transform: rotate(180deg);}
 .span{color:RED;font-size: 17px;z-index:1;}
@@ -5173,10 +5357,10 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
   }
 
 #x0{left: 120px;font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:822px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
-#x3{font-weight: bolder;color:RED;position:absolute;top:359px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:0;display:none;}
+#x3{font-weight: bolder;color:RED;position:absolute;top:373px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:0;display:none;}
 #x3b1{font-weight: bolder;color:white;position:absolute;top:716px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:0;display:none;}
 
-#x{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:652px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
+#x{font-weight: bolder;font-size: 45PX;display: inline-block;color:RED;position:absolute;top:709px;padding:0px;margin-bottom: 0px;margin-top:0px;margin-left: 0px;margin-right:0px;z-index:2;}
 .price5{word-spacing:10px; font-size: 16PX;display: inline-block;color:RED;position:relative;left: 78px;top:0px;padding-right:0px;margin-bottom: -40px;margin-top:-10px;margin-left: 0px;margin-right:0px}
 .price6{word-spacing:10px;,font-size: 16PX;display: inline-block;color:RED;position:relative;left: 44px;top:-1px;padding-right:0px;margin-bottom: -40px;margin-top:-10px;margin-left: 0px;margin-right:0px}
 .price7{word-spacing:10px;,font-size: 16PX;display: inline-block;color:RED;position:relative;left: 28px;top:-1px;padding-right:0px;margin-bottom: -40px;margin-top:-10px;margin-left: 0px;margin-right:0px}
@@ -6361,6 +6545,43 @@ opacity: 0;
 
 
  @media only screen and (min-width:400px) {
+   #pan {
+    position: absolute;
+    opacity: 100%;
+    width: 85px;
+    left: 227px;
+    top: 0px;
+    height: 17%;
+    z-index: 1;
+}
+
+#cafe {
+    position: absolute;
+    opacity: 100%;
+    width: 111px;
+    left: 196px;
+    top: 595px;
+    height: 22%;
+    z-index: 1;
+}
+#zumo {
+    position: absolute;
+    opacity: 100%;
+    left: 141px;
+    left: 213px;
+    top: 1037px;
+    height: 11%;
+    z-index: 1;
+}
+#brown {
+    position: absolute;
+    opacity: 100%;
+    width: 90px;
+    left: 220px;
+    top: 422px;
+    height: 12%;
+    z-index: 1;
+}
    #en{top:550px!important;left:258px!important}
    #w1 {
     opacity: 0;
@@ -6666,18 +6887,18 @@ opacity: 0;
     margin-right: 0px;
     z-index: 2;
 }
-   #x11 {
-    font-weight: bolder;
-    font-size: 45PX;
-    color: RED;
-    position: absolute;
-    top: 100% !important;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    z-index: 2;
+#x11 {
+ font-weight: bolder;
+ font-size: 45PX;
+ color: RED;
+ position: absolute;
+ top: 109% !important;
+ padding: 0px;
+ margin-bottom: 0px;
+ margin-top: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+ z-index: 2;
 }
    .tagright2es {
     font-size: 11PX;
@@ -6698,23 +6919,24 @@ opacity: 0;
     z-index: 3;
     top: 529px !important;
 }
-   #sign6fake {
+#sign6fake {
     z-index: 1;
     bottom: 2%;
     position: absolute;
-    width: 77px;
-    bottom: -2px;
-    left: 119.5px;
+    width: 90px;
+    bottom: 37px;
+    left: 112.5px;
     margin: 0px;
 }
 #sign6fakees {
- z-index: 1;
- bottom: 2%;
- position: absolute;
- width: 77px;
- bottom: -2px;
- left: 119.5px;
- margin: 0px;
+    z-index: 1;
+    transition: height 0.1s,width 1s,rotate 1s;
+    position: absolute;
+    width: 90px;
+    bottom: 37px;
+    left: 112.5px;
+    margin: 0px;
+    display: none;
 }
    #frame {
     position: absolute;
@@ -6759,7 +6981,7 @@ opacity: 0;
     font-size: 45PX;
     display: inline-block;
     color: RED;
-    top: 92%;
+    top: 99%;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -7115,6 +7337,11 @@ opacity: 0;
     font-size: 20px;
     z-index: 1;
    }
+   #spanf{ text-align:right;
+       color: RED;
+       font-size: 20px;
+       z-index: 1;
+      }
 #textses {
     display: none;
     position: relative;
@@ -7122,15 +7349,15 @@ opacity: 0;
     z-index: 0;
     font-size: 15px!important;
    }
-#bakkano2esfake {
-    z-index: 2;
-    position: absolute;
-    height: 160px;
-    width: 160px;
-    bottom: 480px;
-    left: 30.5%;
-    margin: 0px;
-  }
+   #bakkano2esfake {
+       z-index: 2;
+       position: absolute;
+       height: 160px;
+       width: 160px;
+       bottom: 518.7px;
+       left: 30.5%;
+       margin: 0px;
+   }
   #bakkano2es {
     z-index: 2;
     position: absolute;
@@ -7593,11 +7820,11 @@ h1 {
                     bottom: 461px;
                     left: 102px;
                     margin: 0px;}
-#toast {
+                    #toast {
                         width: 70%;
-                        height: 16%;
+                        height: 13%;
                         position: absolute;
-                        top: 50px;
+                        top: 125px;
                         left: 50px;
                         transition: 1s;
                     }
@@ -7608,11 +7835,11 @@ h1 {
 #lamp3 {
     z-index: 2;
     position: absolute;
-    top: 194px;
+    top: 211px;
     width: 45px;
     height: 70px;
     left: 222px;
-   }
+}
 #insta{left: 245px;}
 #maps{left: 148px;}
 #mapses{left: 148px;}
@@ -7626,7 +7853,7 @@ h1 {
     font-weight: bolder;
     color: RED;
     position: absolute;
-    top: 396px;
+    top: 420px;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -7977,7 +8204,7 @@ h1 {
     font-size: 45PX;
     color: RED;
     position: absolute;
-    top: 97% !important;
+    top: 108% !important;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -7985,19 +8212,27 @@ h1 {
     margin-right: 0px;
     z-index: 2;
 }
-    #x11en {
-        font-weight: bolder;
-        font-size: 45PX;
-        display: inline-block;
-        color: RED;
-        top: 88%;
-        padding: 0px;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        z-index: 2;
-    }
+#lamp3 {
+    z-index: 2;
+    position: absolute;
+    top: 213px;
+    width: 45px;
+    height: 70px;
+    left: 222px;
+}
+#x11en {
+  font-weight: bolder;
+  font-size: 45PX;
+  display: inline-block;
+  color: RED;
+  top: 101%;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  z-index: 2;
+}
 .glass {
     position: absolute;
     width: 70px;
