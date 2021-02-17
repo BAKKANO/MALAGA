@@ -3417,6 +3417,13 @@ font-weight: bolder;top:71%;border-style: double;border-radius: 0px;border-width
 }
 
   @media only screen and (min-width:360px) {
+    #erasmus {
+    position: fixed;
+    display: none;
+    width: 31%;
+    top: 0%;
+    left: 34%;
+}
 
     #en{left:214px!important;top:451px!important}
 
@@ -5490,6 +5497,13 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 }
 
 @media only screen and (min-width:375px) {
+  #erasmus {
+    position: fixed;
+    display: none;
+    width: 31%;
+    top: 0%;
+    left: 34%;
+}
   #brown {
     position: absolute;
     opacity: 100%;
@@ -8048,6 +8062,13 @@ h1 {
 }
 
 @media only screen and (min-width:414px) {
+  #erasmus {
+    position: fixed;
+    display: none;
+    width: 31%;
+    top: 0%;
+    left: 35%;
+}
   #en{left:263px!important}
   #mapsb1 {
 
