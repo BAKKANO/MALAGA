@@ -6,7 +6,19 @@ body{margin:0px;padding:0px;border:0px;height:80px;background-color:red;}
       width: 31%;
       top: 0%;
       left: 34%;
+      animation-name: eras;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: 1;
+      animation-delay: 0.5s;
+      opacity: 0;
   }
+  @keyframes eras {
+    0%{filter: blur(200px) brightness(2000%);opacity: 1;;}
+    100%{filter: blur(0px) brightness(100%);opacity: 1;}
+  }
+
 
     #x000{
     left: 120px;
@@ -5497,12 +5509,13 @@ font-weight: bolder;border-style: double;border-radius: 0px;border-width: 0px;pa
 }
 
 @media only screen and (min-width:375px) {
+
   #erasmus {
     position: fixed;
     display: none;
     width: 31%;
     top: 0%;
-    left: 34%;
+    left: 33%;
 }
   #brown {
     position: absolute;
